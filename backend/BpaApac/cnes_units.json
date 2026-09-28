@@ -1,0 +1,2262 @@
+[
+  {
+    "cnes": "2270528",
+    "nome_unidade": "ABBR"
+  },
+  {
+    "cnes": "2295369",
+    "nome_unidade": "ACAO CRISTA VICENTE MORETTI"
+  },
+  {
+    "cnes": "7176511",
+    "nome_unidade": "AFIP TDN RJ"
+  },
+  {
+    "cnes": "3988724",
+    "nome_unidade": "AMBULATORIO IASERJ MARACANA"
+  },
+  {
+    "cnes": "7698313",
+    "nome_unidade": "AMO RX"
+  },
+  {
+    "cnes": "4224361",
+    "nome_unidade": "APAE RIO FILIAL"
+  },
+  {
+    "cnes": "7381905",
+    "nome_unidade": "CARDIOMEX"
+  },
+  {
+    "cnes": "9582029",
+    "nome_unidade": "CDMED CENTRO DE DIAGNOSTICOS MEDICOS"
+  },
+  {
+    "cnes": "3164896",
+    "nome_unidade": "CEDIR"
+  },
+  {
+    "cnes": "0310409",
+    "nome_unidade": "CEMARC CENTRAL DE REGULACAO DE SAO JOAO DE MERITI"
+  },
+  {
+    "cnes": "7911076",
+    "nome_unidade": "CEMEQ CENTRO DE ESPECIALIDADE FRANCISCO VIRGILIO DA C PRADO"
+  },
+  {
+    "cnes": "6570496",
+    "nome_unidade": "CENOM"
+  },
+  {
+    "cnes": "6843832",
+    "nome_unidade": "CENTRAL DE REGULACAO CREG"
+  },
+  {
+    "cnes": "6977863",
+    "nome_unidade": "CENTRAL DE REGULACAO DE MESQUITA"
+  },
+  {
+    "cnes": "6674291",
+    "nome_unidade": "CENTRAL DE REGULACAO DE MIGUEL PEREIRA"
+  },
+  {
+    "cnes": "9025456",
+    "nome_unidade": "CENTRAL DE REGULACAO DE NITEROI"
+  },
+  {
+    "cnes": "6203515",
+    "nome_unidade": "CENTRAL DE REGULACAO DE QUEIMADOS"
+  },
+  {
+    "cnes": "6647057",
+    "nome_unidade": "CENTRAL DE REGULACAO DE QUISSAMA RJ"
+  },
+  {
+    "cnes": "7269749",
+    "nome_unidade": "CENTRAL DE REGULACAO DE TANGUA"
+  },
+  {
+    "cnes": "7164793",
+    "nome_unidade": "CENTRAL DE REGULACAO DE VASSOURAS"
+  },
+  {
+    "cnes": "9111328",
+    "nome_unidade": "CENTRAL DE REGULACAO LEVY GASPARIAN"
+  },
+  {
+    "cnes": "7481535",
+    "nome_unidade": "CENTRAL DE REGULACAO MUNICIPAL DE MARICA"
+  },
+  {
+    "cnes": "2290103",
+    "nome_unidade": "CENTRAL MUNICIPAL DE REGULACAO"
+  },
+  {
+    "cnes": "0814423",
+    "nome_unidade": "CENTRAL MUNICIPAL DE REGULACAO AMBULATORIAL"
+  },
+  {
+    "cnes": "0198528",
+    "nome_unidade": "CENTRAL MUNICIPAL DE REGULACAO AREAL"
+  },
+  {
+    "cnes": "7151624",
+    "nome_unidade": "CENTRAL MUNICIPAL DE REGULACAO DE BARRA DO PIRAI"
+  },
+  {
+    "cnes": "7414196",
+    "nome_unidade": "CENTRAL MUNICIPAL DE REGULACAO DR VINICIUS QUINTELA"
+  },
+  {
+    "cnes": "3344169",
+    "nome_unidade": "CENTRO AVANCADO DE OFTALMOLOGIA"
+  },
+  {
+    "cnes": "3388794",
+    "nome_unidade": "CENTRO DA MEDICINA NUCLEAR DA GUANABARA COPACABANA"
+  },
+  {
+    "cnes": "0112348",
+    "nome_unidade": "CENTRO DA MEDICINA NUCLEAR DA GUANABARA MIGUEL COUTO 30A"
+  },
+  {
+    "cnes": "9864628",
+    "nome_unidade": "CENTRO DE ESPECIALIDADES MEDICAS DONA ALBA"
+  },
+  {
+    "cnes": "6407412",
+    "nome_unidade": "CENTRO DE ESTUDOS DE SAUDE DO TRABALHADOR E ECOLOGIA HUMANA"
+  },
+  {
+    "cnes": "7584342",
+    "nome_unidade": "CENTRO DE MEDICINA NUCLEAR DA GUANABARA MADUREIRA"
+  },
+  {
+    "cnes": "2698854",
+    "nome_unidade": "CENTRO DE MEDICINA NUCLEAR DA GUANABARA MATRIZ"
+  },
+  {
+    "cnes": "9972315",
+    "nome_unidade": "CENTRO DE MEDICINA NUCLEAR DA GUANABARA TAQUARA"
+  },
+  {
+    "cnes": "2298732",
+    "nome_unidade": "CENTRO DE MEDICINA NUCLEAR DA GUANABARA TIJUCA"
+  },
+  {
+    "cnes": "6389317",
+    "nome_unidade": "CENTRO DE MEDICINA NUCLEAR GUANABARA CAMPO GRANDE"
+  },
+  {
+    "cnes": "9231943",
+    "nome_unidade": "CENTRO DE REABILITACAO DE PARAIBA DO SUL"
+  },
+  {
+    "cnes": "2268183",
+    "nome_unidade": "CENTRO DE SAUDE DR CAROLINO RIBEIRO DE MOURA"
+  },
+  {
+    "cnes": "6853242",
+    "nome_unidade": "CENTRO FONOAUDIOLOGICO EDUCACIONAL ARAUJO CID"
+  },
+  {
+    "cnes": "2295210",
+    "nome_unidade": "CENTRO INTERNAC NEURORREABILITACAO E NEUROCIENCIA SARAH RIO"
+  },
+  {
+    "cnes": "0864994",
+    "nome_unidade": "CENTRO MEDICO CADEG"
+  },
+  {
+    "cnes": "2270102",
+    "nome_unidade": "CENTRO MEDICO DARKE"
+  },
+  {
+    "cnes": "2285894",
+    "nome_unidade": "CENTRO MEDICO DR MOACYR JUNQUEIRA"
+  },
+  {
+    "cnes": "7882521",
+    "nome_unidade": "CENTRO MEDICO E OFTALMOLOGICO HAMA"
+  },
+  {
+    "cnes": "2279398",
+    "nome_unidade": "CENTRO MUNICIPAL DE SAUDE COLETIVA DE PARACAMBI"
+  },
+  {
+    "cnes": "2271052",
+    "nome_unidade": "CENTRO MUNICIPAL DE SAUDE FERNANDA MONTEIRO MARQUES"
+  },
+  {
+    "cnes": "9925627",
+    "nome_unidade": "CENTRO OFTALMOLOGICO ALBERT SABIN MADUREIRA"
+  },
+  {
+    "cnes": "7069448",
+    "nome_unidade": "CENTRO OFTALMOLOGICO ANA BARBOSA"
+  },
+  {
+    "cnes": "5727855",
+    "nome_unidade": "CENTRO OFTALMOLOGICO SAO MATHEUS"
+  },
+  {
+    "cnes": "2270498",
+    "nome_unidade": "CEPOA CLINICA DE OFTALMOLOGIA"
+  },
+  {
+    "cnes": "5555667",
+    "nome_unidade": "CER ANDARAI"
+  },
+  {
+    "cnes": "7492987",
+    "nome_unidade": "CLIN E CIR DE OLHOS DRA ROBERLI B PINTO E DR MIZAEL PINTO"
+  },
+  {
+    "cnes": "9135634",
+    "nome_unidade": "CLINICA DE DIAGNOSTICO KHAYAT"
+  },
+  {
+    "cnes": "2270382",
+    "nome_unidade": "CLINICA DE FISIOTERAPIA RENASCER"
+  },
+  {
+    "cnes": "0532886",
+    "nome_unidade": "CLINICA DE MEDICINA NUCLEAR VILLELA PEDRAS CAMPO GRANDE"
+  },
+  {
+    "cnes": "7069502",
+    "nome_unidade": "CLINICA DE MEDICINA NUCLEAR VILLELA PEDRAS FILIAL LEBLON"
+  },
+  {
+    "cnes": "3178447",
+    "nome_unidade": "CLINICA DE MEDICINA NUCLEAR VILLELA PEDRAS MATRIZ"
+  },
+  {
+    "cnes": "5263263",
+    "nome_unidade": "CLINICA DE OLHOS AV RIO BRANCO"
+  },
+  {
+    "cnes": "7165765",
+    "nome_unidade": "CLINICA DE OLHOS AV RIO BRANCO MATRIZ"
+  },
+  {
+    "cnes": "2273632",
+    "nome_unidade": "CLINICA NOVA GUANABARA"
+  },
+  {
+    "cnes": "6067522",
+    "nome_unidade": "COMPLEXO REGULADOR"
+  },
+  {
+    "cnes": "0273619",
+    "nome_unidade": "COMPLEXO REGULADOR 2 PQ DOS FERREIRAS"
+  },
+  {
+    "cnes": "6542042",
+    "nome_unidade": "COMPLEXO REGULADOR DE BELFORD ROXO"
+  },
+  {
+    "cnes": "5939720",
+    "nome_unidade": "COMPLEXO REGULADOR DE SAO GONCALO"
+  },
+  {
+    "cnes": "9002448",
+    "nome_unidade": "COMPLEXO REGULADOR DE SEROPEDICA"
+  },
+  {
+    "cnes": "7408536",
+    "nome_unidade": "COMPLEXO REGULADOR DO MUNICIPIO DE ITAGUAI"
+  },
+  {
+    "cnes": "3982742",
+    "nome_unidade": "COMPLEXO REGULADOR MUNICIPAL"
+  },
+  {
+    "cnes": "2937387",
+    "nome_unidade": "COMPLEXO REGULADOR SANTA MARIA"
+  },
+  {
+    "cnes": "3081990",
+    "nome_unidade": "COMPLEXO REGULADOR SAO JOSE"
+  },
+  {
+    "cnes": "0304107",
+    "nome_unidade": "COORDENACAO DE ATENCAO BASICA"
+  },
+  {
+    "cnes": "3122786",
+    "nome_unidade": "COSC CIRURGIA OCULAR SAO CRISTOVAO"
+  },
+  {
+    "cnes": "2290588",
+    "nome_unidade": "CS DE MACUCO"
+  },
+  {
+    "cnes": "9792961",
+    "nome_unidade": "DIMAGEM DIAGNOSTICO POR IMAGEM TAQUARA"
+  },
+  {
+    "cnes": "9996095",
+    "nome_unidade": "DIMAGEM DIAGNOSTICO POR IMAGEM TIJUCA"
+  },
+  {
+    "cnes": "5482070",
+    "nome_unidade": "ESF CAJUEIROS"
+  },
+  {
+    "cnes": "2287862",
+    "nome_unidade": "ESF CANTAO JOAO GOMES"
+  },
+  {
+    "cnes": "5483662",
+    "nome_unidade": "ESF LAGOMAR BC"
+  },
+  {
+    "cnes": "2276623",
+    "nome_unidade": "ESF MORRO DE SAO JORGE"
+  },
+  {
+    "cnes": "3348431",
+    "nome_unidade": "EURJ ESCOLA DE ULTRASSONOGRAFIA DO RIO DE JANEIRO"
+  },
+  {
+    "cnes": "6810969",
+    "nome_unidade": "FAMAD FUNDACAO AMELIA DIAS DE ASSIST AO M A P N ESPECIAIS"
+  },
+  {
+    "cnes": "4046544",
+    "nome_unidade": "FIOCRUZ IOC LABORATORIO DE HEPATITES VIRAIS"
+  },
+  {
+    "cnes": "6610129",
+    "nome_unidade": "FISIOLOGIC CLINICA DE FISIOTERAPIA EM TRAUMATO ORTOPEDIA"
+  },
+  {
+    "cnes": "0716170",
+    "nome_unidade": "GAMIR SAUDE"
+  },
+  {
+    "cnes": "2290502",
+    "nome_unidade": "GAN GERENCIA DE ALIMENTACAO E NUTRICAO"
+  },
+  {
+    "cnes": "2273357",
+    "nome_unidade": "HOSPITAL ADVENTISTA SILVESTRE"
+  },
+  {
+    "cnes": "3333167",
+    "nome_unidade": "HOSPITAL DO OLHO CAMPO GRANDE"
+  },
+  {
+    "cnes": "2270234",
+    "nome_unidade": "HOSPITAL ESTADUAL GETULIO VARGAS"
+  },
+  {
+    "cnes": "2269384",
+    "nome_unidade": "HOSPITAL FEDERAL DO ANDARAI"
+  },
+  {
+    "cnes": "5307864",
+    "nome_unidade": "HOSPITAL GERAL MUNICIPAL SAO FRANCISCO DE ASSIS"
+  },
+  {
+    "cnes": "2269899",
+    "nome_unidade": "HOSPITAL MARIO KROEFF"
+  },
+  {
+    "cnes": "2279355",
+    "nome_unidade": "HOSPITAL MUNICIPAL DR ADALBERTO DA GRACA"
+  },
+  {
+    "cnes": "7655703",
+    "nome_unidade": "HOSPITAL PUBLICO MUNICIPAL DA SERRA HPMS"
+  },
+  {
+    "cnes": "2280167",
+    "nome_unidade": "HOSPITAL UNIVERSITARIO CLEMENTINO FRAGA FILHO"
+  },
+  {
+    "cnes": "2295415",
+    "nome_unidade": "HOSPITAL UNIVERSITARIO GAFFREE E GUINLE"
+  },
+  {
+    "cnes": "2708353",
+    "nome_unidade": "IFF FIOCRUZ"
+  },
+  {
+    "cnes": "2288338",
+    "nome_unidade": "INI FIOCRUZ"
+  },
+  {
+    "cnes": "7136803",
+    "nome_unidade": "INSTITUTO CARLOS CHAGAS"
+  },
+  {
+    "cnes": "2269430",
+    "nome_unidade": "INSTITUTO DE PSIQUIATRIA DA UFRJ IPUB"
+  },
+  {
+    "cnes": "7929609",
+    "nome_unidade": "INSTITUTO DO RIM E DO CEREBRO SERVICOS MEDICOS"
+  },
+  {
+    "cnes": "2270617",
+    "nome_unidade": "INSTITUTO ESTADUAL DE DERMATOLOGIA SANITARIA"
+  },
+  {
+    "cnes": "2295067",
+    "nome_unidade": "INSTITUTO ESTADUAL DE HEMATOLOGIA ARTHUR SIQUEIRA CAVALCANTI"
+  },
+  {
+    "cnes": "4721101",
+    "nome_unidade": "INSTITUTO PROTETORES DA PELE"
+  },
+  {
+    "cnes": "0428590",
+    "nome_unidade": "LAR DE DANIEL CRISTOVAO"
+  },
+  {
+    "cnes": "2270021",
+    "nome_unidade": "MATERNIDADE ESCOLA DA UFRJ"
+  },
+  {
+    "cnes": "2269880",
+    "nome_unidade": "MS HGB HOSPITAL GERAL DE BONSUCESSO"
+  },
+  {
+    "cnes": "2269775",
+    "nome_unidade": "MS HOSPITAL DE IPANEMA"
+  },
+  {
+    "cnes": "2295423",
+    "nome_unidade": "MS HOSPITAL FEDERAL CARDOSO FONTES"
+  },
+  {
+    "cnes": "2273659",
+    "nome_unidade": "MS HOSPITAL FEDERAL DA LAGOA"
+  },
+  {
+    "cnes": "2269988",
+    "nome_unidade": "MS HSE HOSPITAL DOS SERVIDORES DO ESTADO"
+  },
+  {
+    "cnes": "2280132",
+    "nome_unidade": "MS INC INSTITUTO NACIONAL DE CARDIOLOGIA"
+  },
+  {
+    "cnes": "2273454",
+    "nome_unidade": "MS INCA HOSPITAL DO CANCER I"
+  },
+  {
+    "cnes": "2269821",
+    "nome_unidade": "MS INCA II HOSPITAL DO CANCER II"
+  },
+  {
+    "cnes": "2273276",
+    "nome_unidade": "MS INST NACIONAL DE TRAUMATO ORTOPEDIA"
+  },
+  {
+    "cnes": "9919511",
+    "nome_unidade": "NEUROFISIOLOGIA CLINICA INTEGRADA LTDA TAQUARA"
+  },
+  {
+    "cnes": "9996761",
+    "nome_unidade": "NEUROFISIOLOGIA CLINICA INTEGRADA LTDA TIJUCA"
+  },
+  {
+    "cnes": "6321690",
+    "nome_unidade": "NUCLEO ADVENTISTA SILVESTRE DE SAUDE E PREVENCAO"
+  },
+  {
+    "cnes": "6706630",
+    "nome_unidade": "NUCLEO DE CONTROLE AVALIACAO REGULACAO E AUDITORIA"
+  },
+  {
+    "cnes": "3001202",
+    "nome_unidade": "POLICLINICA DE BOTAFOGO"
+  },
+  {
+    "cnes": "2280698",
+    "nome_unidade": "POLICLINICA GERAL DO RIO DE JANEIRO"
+  },
+  {
+    "cnes": "2269392",
+    "nome_unidade": "POLICLINICA PIQUET CARNEIRO"
+  },
+  {
+    "cnes": "3017087",
+    "nome_unidade": "POLICLINICA RONALDO GAZOLLA"
+  },
+  {
+    "cnes": "9410449",
+    "nome_unidade": "PORTO GASTRO"
+  },
+  {
+    "cnes": "0999490",
+    "nome_unidade": "PROJETO COLIBRI"
+  },
+  {
+    "cnes": "0472239",
+    "nome_unidade": "PROJETO MENINA MOCA MULHER"
+  },
+  {
+    "cnes": "2271338",
+    "nome_unidade": "SEAP CGSP RJ AMB CADEIA PUBLICA JORGE SANTANNA"
+  },
+  {
+    "cnes": "9592148",
+    "nome_unidade": "SEAP CGSP RJ AMB CADEIA PUBLICA JOSE ANTONIO DA COSTA BARROS"
+  },
+  {
+    "cnes": "3069729",
+    "nome_unidade": "SEAP CGSP RJ AMB CADEIA PUBLICA PAULO ROBERTO ROCHA"
+  },
+  {
+    "cnes": "2271346",
+    "nome_unidade": "SEAP CGSP RJ AMB CADEIA PUBLICA PEDRO MELO DA SILVA"
+  },
+  {
+    "cnes": "5511607",
+    "nome_unidade": "SEAP CGSP RJ AMB INSTITUTO PENAL BENJAMIM DE MORAES"
+  },
+  {
+    "cnes": "2270129",
+    "nome_unidade": "SEAP CGSP RJ AMB INSTITUTO PENAL PLACIDO SA CARVALHO"
+  },
+  {
+    "cnes": "2270137",
+    "nome_unidade": "SEAP CGSP RJ AMB INSTITUTO PENAL VICENTE PIRAGIBE"
+  },
+  {
+    "cnes": "2271362",
+    "nome_unidade": "SEAP CGSP RJ AMB PENITENCIARIA ALFREDO TRANJAN"
+  },
+  {
+    "cnes": "6996892",
+    "nome_unidade": "SEAP CGSP RJ AMB PENITENCIARIA BANDEIRA STAMPA"
+  },
+  {
+    "cnes": "2271303",
+    "nome_unidade": "SEAP CGSP RJ AMB PENITENCIARIA DR SERRANO NEVES A BANGU III"
+  },
+  {
+    "cnes": "5511690",
+    "nome_unidade": "SEAP CGSP RJ AMB PENITENCIARIA GABRIEL FERREIRA CASTILHO"
+  },
+  {
+    "cnes": "2270153",
+    "nome_unidade": "SEAP CGSP RJ AMB PENITENCIARIA MONIZ SODRE"
+  },
+  {
+    "cnes": "2270218",
+    "nome_unidade": "SEAP CGSP RJ AMB PENITENCIARIA TALAVERA BRUCE"
+  },
+  {
+    "cnes": "2269473",
+    "nome_unidade": "SEAP CGSP RJ AMB PRESIDIO ARY FRANCO"
+  },
+  {
+    "cnes": "3069699",
+    "nome_unidade": "SEAP CGSP RJ AMB RJ INSTITUTO PENAL OSCAR STEVENSON"
+  },
+  {
+    "cnes": "2270161",
+    "nome_unidade": "SEAP CGSP RJ HOSP DR HAMILTON AGOSTINHO VIEIRA CASTRO"
+  },
+  {
+    "cnes": "2274361",
+    "nome_unidade": "SECRETARIA DE SAUDE DE SAPUCAIA"
+  },
+  {
+    "cnes": "2267381",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE"
+  },
+  {
+    "cnes": "6458181",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE"
+  },
+  {
+    "cnes": "6521282",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE"
+  },
+  {
+    "cnes": "6929885",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE"
+  },
+  {
+    "cnes": "7790740",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE"
+  },
+  {
+    "cnes": "6591817",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE CARMO"
+  },
+  {
+    "cnes": "6323413",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE BARRA MANSA"
+  },
+  {
+    "cnes": "7221673",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE CABO FRIO"
+  },
+  {
+    "cnes": "6298109",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE CAMPOS DOS GOYTACAZES"
+  },
+  {
+    "cnes": "2267551",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE CANTAGALO"
+  },
+  {
+    "cnes": "7175671",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE CANTAGALO"
+  },
+  {
+    "cnes": "6677304",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE CARAPEBUS"
+  },
+  {
+    "cnes": "7517017",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE CONCEICAO DE MACABU"
+  },
+  {
+    "cnes": "6361307",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE ITATIAIA"
+  },
+  {
+    "cnes": "6426484",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE JAPERI"
+  },
+  {
+    "cnes": "6473245",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE MAGE"
+  },
+  {
+    "cnes": "6891675",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE MANGARATIBA"
+  },
+  {
+    "cnes": "6886973",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE MARICA"
+  },
+  {
+    "cnes": "6435459",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE MENDES"
+  },
+  {
+    "cnes": "6422810",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE MIGUEL PEREIRA"
+  },
+  {
+    "cnes": "7142714",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE PARACAMBI"
+  },
+  {
+    "cnes": "2276127",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE PARAIBA DO SUL"
+  },
+  {
+    "cnes": "9209263",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE PATY DO ALFERES"
+  },
+  {
+    "cnes": "6159192",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE PORTO REAL"
+  },
+  {
+    "cnes": "6225152",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE QUEIMADOS"
+  },
+  {
+    "cnes": "6576524",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE RIO DAS FLORES"
+  },
+  {
+    "cnes": "6422608",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE RIO DAS OSTRAS"
+  },
+  {
+    "cnes": "6464491",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE SAQUAREMA"
+  },
+  {
+    "cnes": "6432352",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE SEROPEDICA"
+  },
+  {
+    "cnes": "6488013",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DE TERESOPOLIS"
+  },
+  {
+    "cnes": "5371120",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE DUQUE DE CAXIAS"
+  },
+  {
+    "cnes": "6774210",
+    "nome_unidade": "SECRETARIA MUNICIPAL DE SAUDE ENGENHEIRO PAULO DE FRONTIN"
+  },
+  {
+    "cnes": "2283972",
+    "nome_unidade": "SEMUS"
+  },
+  {
+    "cnes": "4269535",
+    "nome_unidade": "SES RJ AME JORNALISTA SUSANA NASPOLINE PAVAO PAVAOZINHO"
+  },
+  {
+    "cnes": "4558014",
+    "nome_unidade": "SES RJ C ESTADUAL DE DIAGNOSTICO TRANSTORNO ESPECTRO AUTISTA"
+  },
+  {
+    "cnes": "6460852",
+    "nome_unidade": "SES RJ CENTRAL EST REGIONAL REGULACAO CENTRO SUL"
+  },
+  {
+    "cnes": "6460712",
+    "nome_unidade": "SES RJ CENTRAL EST REGIONAL REGULACAO METROPOLITANA II"
+  },
+  {
+    "cnes": "6918417",
+    "nome_unidade": "SES RJ CENTRO ESTADUAL DE DIAGNOSTICO POR IMAGEM"
+  },
+  {
+    "cnes": "2273411",
+    "nome_unidade": "SES RJ HOSPITAL ESTADUAL CARLOS CHAGAS"
+  },
+  {
+    "cnes": "7516800",
+    "nome_unidade": "SES RJ HOSPITAL ESTADUAL EDUARDO RABELLO"
+  },
+  {
+    "cnes": "2273209",
+    "nome_unidade": "SES RJ HOSPITAL ESTADUAL SANTA MARIA"
+  },
+  {
+    "cnes": "7185081",
+    "nome_unidade": "SES RJ HOSPITAL ESTADUAL TRANSPLANTE CANCER E CIR INFANTIL"
+  },
+  {
+    "cnes": "2270803",
+    "nome_unidade": "SES RJ I INST EST DIABET ENDOCRINOLOGIA IEDE"
+  },
+  {
+    "cnes": "2269678",
+    "nome_unidade": "SES RJ IECAC INST EST DE CARDIOLOGIA ALOYSIO DE CASTRO"
+  },
+  {
+    "cnes": "2273365",
+    "nome_unidade": "SES RJ INSTITUTO ESTADUAL DE INFECTOLOGIA SAO SEBASTIAO"
+  },
+  {
+    "cnes": "7592167",
+    "nome_unidade": "SES RJ MAMOGRAFO MOVEL"
+  },
+  {
+    "cnes": "6220584",
+    "nome_unidade": "SES RJ UPA 24H BOTAFOGO"
+  },
+  {
+    "cnes": "6858317",
+    "nome_unidade": "SES RJ UPA 24H COPACABANA"
+  },
+  {
+    "cnes": "6038891",
+    "nome_unidade": "SES RJ UPA 24H ENGENHO NOVO"
+  },
+  {
+    "cnes": "6037569",
+    "nome_unidade": "SES RJ UPA 24H MARECHAL HERMES"
+  },
+  {
+    "cnes": "5955688",
+    "nome_unidade": "SES RJ UPA 24H RICARDO DE ALBUQUERQUE"
+  },
+  {
+    "cnes": "5955661",
+    "nome_unidade": "SES RJ UPA 24H TIJUCA"
+  },
+  {
+    "cnes": "5955211",
+    "nome_unidade": "SES UPA 24H MARE AP 31"
+  },
+  {
+    "cnes": "6038913",
+    "nome_unidade": "SES UPA 24H PENHA AP 31"
+  },
+  {
+    "cnes": "2291304",
+    "nome_unidade": "SESDEC RJ CENTRO PSIQUIATRICO RIO DE JANEIRO"
+  },
+  {
+    "cnes": "2279754",
+    "nome_unidade": "SIRENE I"
+  },
+  {
+    "cnes": "2297876",
+    "nome_unidade": "SMS BELFORD ROXO"
+  },
+  {
+    "cnes": "7113137",
+    "nome_unidade": "SMS CAPSI HEITOR VILLA LOBOS AP 33"
+  },
+  {
+    "cnes": "3567516",
+    "nome_unidade": "SMS CAPSI III ELIZA SANTA ROZA AP 40"
+  },
+  {
+    "cnes": "0425974",
+    "nome_unidade": "SMS CAPSI ILHA DO GOVERNADOR AP 31"
+  },
+  {
+    "cnes": "6185045",
+    "nome_unidade": "SMS CAPSI JOAO DE BARRO AP 52"
+  },
+  {
+    "cnes": "4297822",
+    "nome_unidade": "SMS CAPSI OSCAR CLARK AP 22"
+  },
+  {
+    "cnes": "2708418",
+    "nome_unidade": "SMS CAPSI PEQUENO HANS AP 51"
+  },
+  {
+    "cnes": "4404076",
+    "nome_unidade": "SMS CAPSI SANTA CRUZ AP 53"
+  },
+  {
+    "cnes": "4404017",
+    "nome_unidade": "SMS CAPSI TIJUCA AP 22"
+  },
+  {
+    "cnes": "7060335",
+    "nome_unidade": "SMS CAPSI VISCONDE DE SABUGOSA AP 31"
+  },
+  {
+    "cnes": "5423430",
+    "nome_unidade": "SMS CAPSIII MARIA CLARA MACHADO AP 32"
+  },
+  {
+    "cnes": "7052006",
+    "nome_unidade": "SMS CAPSIII MAURICIO DE SOUSA AP 21"
+  },
+  {
+    "cnes": "8186839",
+    "nome_unidade": "SMS CEDTEA IRAJA AP 33"
+  },
+  {
+    "cnes": "2970627",
+    "nome_unidade": "SMS CENTRO CARIOCA DE DIAGNOSTICO AP 10"
+  },
+  {
+    "cnes": "8148023",
+    "nome_unidade": "SMS CENTRO CARIOCA DE ESPECIALIDADE DA ZONA OESTE AP 52"
+  },
+  {
+    "cnes": "2970643",
+    "nome_unidade": "SMS CENTRO CARIOCA DE ESPECIALIDADES AP 10"
+  },
+  {
+    "cnes": "8148015",
+    "nome_unidade": "SMS CENTRO CARIOCA DE REABILITACAO DA ZONA OESTE AP 52"
+  },
+  {
+    "cnes": "2970619",
+    "nome_unidade": "SMS CENTRO CARIOCA DO OLHO AP 10"
+  },
+  {
+    "cnes": "0215066",
+    "nome_unidade": "SMS CENTRO DE IMAGEM CIDADE DE DEUS AP 40"
+  },
+  {
+    "cnes": "0215112",
+    "nome_unidade": "SMS CENTRO DE IMAGEM MADUREIRA AP 33"
+  },
+  {
+    "cnes": "0215015",
+    "nome_unidade": "SMS CENTRO DE IMAGEM ROCINHA AP 21"
+  },
+  {
+    "cnes": "9057722",
+    "nome_unidade": "SMS CF ADERSON FERNANDES AP 33"
+  },
+  {
+    "cnes": "5476607",
+    "nome_unidade": "SMS CF ADIB JATENE AP 31"
+  },
+  {
+    "cnes": "7892802",
+    "nome_unidade": "SMS CF ADOLFO FERREIRA DE CARVALHO AP 33"
+  },
+  {
+    "cnes": "0199338",
+    "nome_unidade": "SMS CF ADV MARIO PIRES DA SILVA AP 33"
+  },
+  {
+    "cnes": "5620287",
+    "nome_unidade": "SMS CF AGENOR DE MIRANDA ARAUJO NETO AP 52"
+  },
+  {
+    "cnes": "7896204",
+    "nome_unidade": "SMS CF ALICE DE JESUS REGO AP 53"
+  },
+  {
+    "cnes": "3567567",
+    "nome_unidade": "SMS CF ALKINDAR SOARES PEREIRA FILHO AP 52"
+  },
+  {
+    "cnes": "5179726",
+    "nome_unidade": "SMS CF ALOYSIO AUGUSTO NOVIS AP 31"
+  },
+  {
+    "cnes": "9128867",
+    "nome_unidade": "SMS CF AMAURY BOTTANY AP 33"
+  },
+  {
+    "cnes": "9101764",
+    "nome_unidade": "SMS CF AMELIA DOS SANTOS FERREIRA AP 32"
+  },
+  {
+    "cnes": "3567540",
+    "nome_unidade": "SMS CF ANA GONZAGA AP 52"
+  },
+  {
+    "cnes": "6869009",
+    "nome_unidade": "SMS CF ANA MARIA CONCEICAO DOS SANTOS CORREIA AP 33"
+  },
+  {
+    "cnes": "6713564",
+    "nome_unidade": "SMS CF ANNA NERY AP 32"
+  },
+  {
+    "cnes": "6808077",
+    "nome_unidade": "SMS CF ANTHIDIO DIAS DA SILVEIRA AP 32"
+  },
+  {
+    "cnes": "3416321",
+    "nome_unidade": "SMS CF ANTONIO GONCALVES DA SILVA AP 51"
+  },
+  {
+    "cnes": "7036914",
+    "nome_unidade": "SMS CF ANTONIO GONCALVES VILLA SOBRINHO AP 52"
+  },
+  {
+    "cnes": "3820599",
+    "nome_unidade": "SMS CF ARMANDO PALHARES AGUINAGA AP 51"
+  },
+  {
+    "cnes": "9071385",
+    "nome_unidade": "SMS CF ARTHUR BISPO DO ROSARIO AP 40"
+  },
+  {
+    "cnes": "6804209",
+    "nome_unidade": "SMS CF ASSIS VALENTE AP 31"
+  },
+  {
+    "cnes": "6023320",
+    "nome_unidade": "SMS CF AUGUSTO BOAL AP 31"
+  },
+  {
+    "cnes": "7892810",
+    "nome_unidade": "SMS CF BARBARA MOSLEY DE SOUZA AP 40"
+  },
+  {
+    "cnes": "6820018",
+    "nome_unidade": "SMS CF BARBARA STARFIELD AP 32"
+  },
+  {
+    "cnes": "6914152",
+    "nome_unidade": "SMS CF BIBI VOGEL AP 32"
+  },
+  {
+    "cnes": "9111344",
+    "nome_unidade": "SMS CF CANDIDO RIBEIRO DA SILVA FILHO AP 33"
+  },
+  {
+    "cnes": "6496989",
+    "nome_unidade": "SMS CF CANTAGALO PAVAO PAVAOZINHO AP 21"
+  },
+  {
+    "cnes": "7052049",
+    "nome_unidade": "SMS CF CARIOCA AP 32"
+  },
+  {
+    "cnes": "7119798",
+    "nome_unidade": "SMS CF CARLOS NERY DA COSTA FILHO AP 33"
+  },
+  {
+    "cnes": "0193089",
+    "nome_unidade": "SMS CF CRISTIANI VIEIRA PINHO AP 51"
+  },
+  {
+    "cnes": "9078983",
+    "nome_unidade": "SMS CF CYPRIANO DAS CHAGAS MEDEIROS AP 33"
+  },
+  {
+    "cnes": "6677711",
+    "nome_unidade": "SMS CF DALMIR DE ABREU SALGADO AP 52"
+  },
+  {
+    "cnes": "7108265",
+    "nome_unidade": "SMS CF DANTE ROMANO JUNIOR AP 33"
+  },
+  {
+    "cnes": "5154197",
+    "nome_unidade": "SMS CF DAVID CAPISTRANO FILHO AP 52"
+  },
+  {
+    "cnes": "6660185",
+    "nome_unidade": "SMS CF DEOLINDO COUTO AP 53"
+  },
+  {
+    "cnes": "9131884",
+    "nome_unidade": "SMS CF DEPUTADO PEDRO FERNANDES FILHO AP 33"
+  },
+  {
+    "cnes": "9345515",
+    "nome_unidade": "SMS CF DINIZ BATISTA DOS SANTOS AP 31"
+  },
+  {
+    "cnes": "6023975",
+    "nome_unidade": "SMS CF DONA ZICA AP 10"
+  },
+  {
+    "cnes": "9715444",
+    "nome_unidade": "SMS CF DR MYRTES AMORELLI GONZAGA AP 52"
+  },
+  {
+    "cnes": "6762042",
+    "nome_unidade": "SMS CF EDNEY CANAZARO DE OLIVEIRA AP 32"
+  },
+  {
+    "cnes": "6671020",
+    "nome_unidade": "SMS CF EDSON ABDALLA SAAD AP 53"
+  },
+  {
+    "cnes": "7985657",
+    "nome_unidade": "SMS CF EIDIMIR THIAGO DE SOUZA AP 31"
+  },
+  {
+    "cnes": "6742130",
+    "nome_unidade": "SMS CF EMYGDIO ALVES COSTA FILHO AP 32"
+  },
+  {
+    "cnes": "5044685",
+    "nome_unidade": "SMS CF ENFERMEIRA EDMA VALADAO AP 33"
+  },
+  {
+    "cnes": "0189200",
+    "nome_unidade": "SMS CF ENGENHEIRO SANITARISTA PAULO D AGUILA AP 33"
+  },
+  {
+    "cnes": "6793231",
+    "nome_unidade": "SMS CF EPITACIO SOARES REIS AP 33"
+  },
+  {
+    "cnes": "9131795",
+    "nome_unidade": "SMS CF ERIVALDO FERNANDES NOBREGA AP 32"
+  },
+  {
+    "cnes": "2280310",
+    "nome_unidade": "SMS CF ERNANI DE PAIVA FERREIRA BRAGA AP 53"
+  },
+  {
+    "cnes": "6028233",
+    "nome_unidade": "SMS CF ESTACIO DE SA AP 10"
+  },
+  {
+    "cnes": "9057706",
+    "nome_unidade": "SMS CF ESTIVADORES AP 10"
+  },
+  {
+    "cnes": "7723296",
+    "nome_unidade": "SMS CF EVERTON DE SOUZA SANTOS AP 52"
+  },
+  {
+    "cnes": "7722494",
+    "nome_unidade": "SMS CF FAIM PEDRO AP 51"
+  },
+  {
+    "cnes": "6664075",
+    "nome_unidade": "SMS CF FELIPPE CARDOSO AP 31"
+  },
+  {
+    "cnes": "2277298",
+    "nome_unidade": "SMS CF FERNANDO A BRAGA LOPES AP 10"
+  },
+  {
+    "cnes": "6023916",
+    "nome_unidade": "SMS CF FIORELLO RAYMUNDO AP 51"
+  },
+  {
+    "cnes": "7996675",
+    "nome_unidade": "SMS CF GERSON BERGHER AP 40"
+  },
+  {
+    "cnes": "6648371",
+    "nome_unidade": "SMS CF HANS JURGEN FERNANDO DOHMANN AP 52"
+  },
+  {
+    "cnes": "6664040",
+    "nome_unidade": "SMS CF HEITOR DOS PRAZERES AP 31"
+  },
+  {
+    "cnes": "6618863",
+    "nome_unidade": "SMS CF HELANDE DE MELLO GONCALVES AP 53"
+  },
+  {
+    "cnes": "7892829",
+    "nome_unidade": "SMS CF HELENA BESSERMAN VIANNA AP 40"
+  },
+  {
+    "cnes": "6681379",
+    "nome_unidade": "SMS CF HERBERT JOSE DE SOUZA AP 32"
+  },
+  {
+    "cnes": "5447798",
+    "nome_unidade": "SMS CF HONORIO JOSE DE ANDRADE AP 32"
+  },
+  {
+    "cnes": "6559727",
+    "nome_unidade": "SMS CF ILZO MOTTA DE MELLO AP 53"
+  },
+  {
+    "cnes": "7894554",
+    "nome_unidade": "SMS CF ISABELA SEVERO DA SILVA AP 52"
+  },
+  {
+    "cnes": "7998678",
+    "nome_unidade": "SMS CF IVANIR DE MELLO AP 33"
+  },
+  {
+    "cnes": "6688152",
+    "nome_unidade": "SMS CF IZABEL DOS SANTOS AP 32"
+  },
+  {
+    "cnes": "6618871",
+    "nome_unidade": "SMS CF JAMIL HADDAD AP 53"
+  },
+  {
+    "cnes": "9442251",
+    "nome_unidade": "SMS CF JEREMIAS MORAES DA SILVA AP 31"
+  },
+  {
+    "cnes": "2295237",
+    "nome_unidade": "SMS CF JOAO BATISTA CHAGAS AP 53"
+  },
+  {
+    "cnes": "6932916",
+    "nome_unidade": "SMS CF JOAOSINHO TRINTA AP 31"
+  },
+  {
+    "cnes": "6581994",
+    "nome_unidade": "SMS CF JOSE ANTONIO CIRAUDO AP 53"
+  },
+  {
+    "cnes": "6635709",
+    "nome_unidade": "SMS CF JOSE DE PAULA LOPES PONTES AP 52"
+  },
+  {
+    "cnes": "7873565",
+    "nome_unidade": "SMS CF JOSE DE SOUZA HERDY AP 40"
+  },
+  {
+    "cnes": "9127100",
+    "nome_unidade": "SMS CF JOSE NEVES AP 40"
+  },
+  {
+    "cnes": "6571956",
+    "nome_unidade": "SMS CF JOSUETE SANTANNA DE OLIVEIRA AP 33"
+  },
+  {
+    "cnes": "6852203",
+    "nome_unidade": "SMS CF KELLY CRISTINA DE SA LACERDA SILVA AP 51"
+  },
+  {
+    "cnes": "9075143",
+    "nome_unidade": "SMS CF KLEBEL DE OLIVEIRA ROCHA AP 31"
+  },
+  {
+    "cnes": "7908237",
+    "nome_unidade": "SMS CF LECY RANQUINE AP 52"
+  },
+  {
+    "cnes": "6559735",
+    "nome_unidade": "SMS CF LENICE MARIA MONTEIRO COELHO AP 53"
+  },
+  {
+    "cnes": "6572014",
+    "nome_unidade": "SMS CF LOURENCO DE MELLO AP 53"
+  },
+  {
+    "cnes": "0214949",
+    "nome_unidade": "SMS CF LOURIVAL FRANCISCO DE OLIVEIRA AP 40"
+  },
+  {
+    "cnes": "7986505",
+    "nome_unidade": "SMS CF LUIZ CELIO PEREIRA AP 32"
+  },
+  {
+    "cnes": "6974708",
+    "nome_unidade": "SMS CF MAESTRO CELESTINO AP 33"
+  },
+  {
+    "cnes": "7995520",
+    "nome_unidade": "SMS CF MAICON SIQUEIRA AP 40"
+  },
+  {
+    "cnes": "7088574",
+    "nome_unidade": "SMS CF MANOEL FERNANDES DE ARAUJO AP 33"
+  },
+  {
+    "cnes": "6029965",
+    "nome_unidade": "SMS CF MARCOS VALADAO AP 33"
+  },
+  {
+    "cnes": "6761704",
+    "nome_unidade": "SMS CF MARIA DE AZEVEDO RODRIGUES PEREIRA AP 33"
+  },
+  {
+    "cnes": "6503772",
+    "nome_unidade": "SMS CF MARIA DO SOCORRO ROCINHA AP 21"
+  },
+  {
+    "cnes": "5546591",
+    "nome_unidade": "SMS CF MARIA JOSE DE SOUSA BARBOSA AP 51"
+  },
+  {
+    "cnes": "9307265",
+    "nome_unidade": "SMS CF MARIA JOSE PAPERA DE AZEVEDO AP 52"
+  },
+  {
+    "cnes": "6568491",
+    "nome_unidade": "SMS CF MARIA SEBASTIANA DE OLIVEIRA AP 31"
+  },
+  {
+    "cnes": "6864708",
+    "nome_unidade": "SMS CF MARIO DIAS ALENCAR AP 51"
+  },
+  {
+    "cnes": "6716598",
+    "nome_unidade": "SMS CF MAURY ALVES DE PINHO AP 40"
+  },
+  {
+    "cnes": "9061401",
+    "nome_unidade": "SMS CF MEDALHISTA OLIMPICO ARTHUR ZANETTI AP 52"
+  },
+  {
+    "cnes": "9061398",
+    "nome_unidade": "SMS CF MEDALHISTA OLIMPICO BRUNO SCHMIDT AP 52"
+  },
+  {
+    "cnes": "9079939",
+    "nome_unidade": "SMS CF MEDALHISTA OLIMPICO MAURICIO SILVA AP 10"
+  },
+  {
+    "cnes": "9080163",
+    "nome_unidade": "SMS CF MEDALHISTA OLIMPICO RICARDO LUCARELLI SOUZA AP 10"
+  },
+  {
+    "cnes": "9072640",
+    "nome_unidade": "SMS CF MESTRE MOLEQUINHO DO IMPERIO AP 33"
+  },
+  {
+    "cnes": "7523246",
+    "nome_unidade": "SMS CF NELIO DE OLIVEIRA AP 10"
+  },
+  {
+    "cnes": "9016805",
+    "nome_unidade": "SMS CF NILDA CAMPOS DE LIMA AP 31"
+  },
+  {
+    "cnes": "6901042",
+    "nome_unidade": "SMS CF NILDO EYMAR DE ALMEIDA AGUIAR AP 51"
+  },
+  {
+    "cnes": "9067078",
+    "nome_unidade": "SMS CF ODALEA FIRMO DUTRA AP 22"
+  },
+  {
+    "cnes": "9045023",
+    "nome_unidade": "SMS CF OLGA PEREIRA PACHECO AP 32"
+  },
+  {
+    "cnes": "6387152",
+    "nome_unidade": "SMS CF OLIMPIA ESTEVES AP 51"
+  },
+  {
+    "cnes": "6927289",
+    "nome_unidade": "SMS CF OTTO ALVES DE CARVALHO AP 40"
+  },
+  {
+    "cnes": "6855709",
+    "nome_unidade": "SMS CF PADRE JOHN CRIBBIN PADRE JOAO AP 51"
+  },
+  {
+    "cnes": "6927319",
+    "nome_unidade": "SMS CF PADRE JOSE DE AZEVEDO TIUBA AP 40"
+  },
+  {
+    "cnes": "0265233",
+    "nome_unidade": "SMS CF PADRE MARCOS VINICIO MIRANDA VIEIRA AP 40"
+  },
+  {
+    "cnes": "7021771",
+    "nome_unidade": "SMS CF RAIMUNDO ALVES NASCIMENTO AP 33"
+  },
+  {
+    "cnes": "3785025",
+    "nome_unidade": "SMS CF RECANTO DO TROVADOR AP 22"
+  },
+  {
+    "cnes": "6506232",
+    "nome_unidade": "SMS CF RINALDO DE LAMARE AP 21"
+  },
+  {
+    "cnes": "6524486",
+    "nome_unidade": "SMS CF RODRIGO Y AGUILAR ROIG AP 31"
+  },
+  {
+    "cnes": "9023089",
+    "nome_unidade": "SMS CF ROGERIO PINTO DA MOTA AP 51"
+  },
+  {
+    "cnes": "6029841",
+    "nome_unidade": "SMS CF ROGERIO ROCCO AP 52"
+  },
+  {
+    "cnes": "9311661",
+    "nome_unidade": "SMS CF ROMULO CARLOS TEIXEIRA AP 51"
+  },
+  {
+    "cnes": "3416372",
+    "nome_unidade": "SMS CF ROSINO BACCARINI AP 51"
+  },
+  {
+    "cnes": "6683851",
+    "nome_unidade": "SMS CF SAMUEL PENHA VALLE AP 53"
+  },
+  {
+    "cnes": "7810172",
+    "nome_unidade": "SMS CF SANDRA REGINA SAMPAIO DE SOUZA AP 51"
+  },
+  {
+    "cnes": "6272053",
+    "nome_unidade": "SMS CF SANTA MARTA AP 21"
+  },
+  {
+    "cnes": "4030990",
+    "nome_unidade": "SMS CF SAO SEBASTIAO AP 10"
+  },
+  {
+    "cnes": "6618855",
+    "nome_unidade": "SMS CF SERGIO AROUCA AP 53"
+  },
+  {
+    "cnes": "6919626",
+    "nome_unidade": "SMS CF SERGIO NICOLAU AMIN AP 32"
+  },
+  {
+    "cnes": "6873960",
+    "nome_unidade": "SMS CF SERGIO VIEIRA DE MELLO AP 10"
+  },
+  {
+    "cnes": "7036884",
+    "nome_unidade": "SMS CF SONIA MARIA FERREIRA MACHADO AP 52"
+  },
+  {
+    "cnes": "5417708",
+    "nome_unidade": "SMS CF SOUZA MARQUES AP 33"
+  },
+  {
+    "cnes": "3567559",
+    "nome_unidade": "SMS CF VALDECIR SALUSTIANO CARDOZO AP 52"
+  },
+  {
+    "cnes": "3785009",
+    "nome_unidade": "SMS CF VALERIA GOMES ESTEVES AP 53"
+  },
+  {
+    "cnes": "9107835",
+    "nome_unidade": "SMS CF VALTER FELISBINO DE SOUZA AP 31"
+  },
+  {
+    "cnes": "6514022",
+    "nome_unidade": "SMS CF VICTOR VALLA AP 31"
+  },
+  {
+    "cnes": "2295253",
+    "nome_unidade": "SMS CF WALDEMAR BERARDINELLI AP 53"
+  },
+  {
+    "cnes": "9072659",
+    "nome_unidade": "SMS CF WILMA COSTA AP 31"
+  },
+  {
+    "cnes": "7874162",
+    "nome_unidade": "SMS CF WILSON MELLO SANTOS ZICO AP 51"
+  },
+  {
+    "cnes": "3784975",
+    "nome_unidade": "SMS CF ZILDA ARNS AP 31"
+  },
+  {
+    "cnes": "2708159",
+    "nome_unidade": "SMS CMR ENG DENTRO AP 32"
+  },
+  {
+    "cnes": "2295326",
+    "nome_unidade": "SMS CMR OSCAR CLARK AP 22"
+  },
+  {
+    "cnes": "2270323",
+    "nome_unidade": "SMS CMS ADAO PEREIRA NUNES AP 52"
+  },
+  {
+    "cnes": "6026737",
+    "nome_unidade": "SMS CMS ADELINO SIMOES NOVA SEPETIBA AP 53"
+  },
+  {
+    "cnes": "6029922",
+    "nome_unidade": "SMS CMS AGUIAR TORRES AP 52"
+  },
+  {
+    "cnes": "2269937",
+    "nome_unidade": "SMS CMS ALBERTO BORGERTH AP 33"
+  },
+  {
+    "cnes": "2269848",
+    "nome_unidade": "SMS CMS ALEXANDER FLEMING AP 51"
+  },
+  {
+    "cnes": "5879655",
+    "nome_unidade": "SMS CMS ALICE TOLEDO TIBIRICA AP 33"
+  },
+  {
+    "cnes": "2273551",
+    "nome_unidade": "SMS CMS ALOYSIO AMANCIO DA SILVA AP 53"
+  },
+  {
+    "cnes": "2270277",
+    "nome_unidade": "SMS CMS ALVIMAR DE CARVALHO AP 52"
+  },
+  {
+    "cnes": "2296551",
+    "nome_unidade": "SMS CMS AMERICO VELOSO AP 31"
+  },
+  {
+    "cnes": "6033121",
+    "nome_unidade": "SMS CMS ANTENOR NASCENTES AP 32"
+  },
+  {
+    "cnes": "4178602",
+    "nome_unidade": "SMS CMS AQUIDABA AP 32"
+  },
+  {
+    "cnes": "2273225",
+    "nome_unidade": "SMS CMS ARIADNE LOPES DE MENEZES AP 32"
+  },
+  {
+    "cnes": "2270463",
+    "nome_unidade": "SMS CMS ATHAYDE JOSE DA FONSECA AP 51"
+  },
+  {
+    "cnes": "2273179",
+    "nome_unidade": "SMS CMS AUGUSTO DO AMARAL PEIXOTO AP 33"
+  },
+  {
+    "cnes": "2269554",
+    "nome_unidade": "SMS CMS BELIZARIO PENNA AP 52"
+  },
+  {
+    "cnes": "3416356",
+    "nome_unidade": "SMS CMS BUA BOANERGES BORGES DA FONSECA AP 51"
+  },
+  {
+    "cnes": "6029825",
+    "nome_unidade": "SMS CMS CARLOS ALBERTO NASCIMENTO AP 52"
+  },
+  {
+    "cnes": "2269309",
+    "nome_unidade": "SMS CMS CARLOS CRUZ LIMA AP 33"
+  },
+  {
+    "cnes": "2778696",
+    "nome_unidade": "SMS CMS CARLOS FIGUEIREDO FILHO BOREL AP 22"
+  },
+  {
+    "cnes": "2280744",
+    "nome_unidade": "SMS CMS CARLOS GENTILLE DE MELLO AP 32"
+  },
+  {
+    "cnes": "2269732",
+    "nome_unidade": "SMS CMS CARMELA DUTRA AP 33"
+  },
+  {
+    "cnes": "5358612",
+    "nome_unidade": "SMS CMS CASA BRANCA AP 22"
+  },
+  {
+    "cnes": "5546583",
+    "nome_unidade": "SMS CMS CATIRI AP 51"
+  },
+  {
+    "cnes": "2269929",
+    "nome_unidade": "SMS CMS CATTAPRETA AP 53"
+  },
+  {
+    "cnes": "2270013",
+    "nome_unidade": "SMS CMS CECILIA DONNANGELO AP 40"
+  },
+  {
+    "cnes": "2708167",
+    "nome_unidade": "SMS CMS CESAR PERNETTA AP 32"
+  },
+  {
+    "cnes": "2273578",
+    "nome_unidade": "SMS CMS CESARIO DE MELLO AP 53"
+  },
+  {
+    "cnes": "6632831",
+    "nome_unidade": "SMS CMS CHAPEU MANG BABILONIA AP 21"
+  },
+  {
+    "cnes": "2269295",
+    "nome_unidade": "SMS CMS CLEMENTINO FRAGA AP 33"
+  },
+  {
+    "cnes": "2273616",
+    "nome_unidade": "SMS CMS CYRO DE MELLO MANGUARIBA AP 53"
+  },
+  {
+    "cnes": "2708183",
+    "nome_unidade": "SMS CMS DECIO AMARAL FILHO AP 53"
+  },
+  {
+    "cnes": "2269651",
+    "nome_unidade": "SMS CMS DOM HELDER CAMARA AP 21"
+  },
+  {
+    "cnes": "2270072",
+    "nome_unidade": "SMS CMS DR ALBERT SABIN AP 21"
+  },
+  {
+    "cnes": "2270579",
+    "nome_unidade": "SMS CMS DR EITHEL PINHEIRO DE OLIVEIRA LIMA AP 51"
+  },
+  {
+    "cnes": "2269562",
+    "nome_unidade": "SMS CMS DR MARIO RODRIGUES CID AP 52"
+  },
+  {
+    "cnes": "2269546",
+    "nome_unidade": "SMS CMS DR OSWALDO VILELLA AP 52"
+  },
+  {
+    "cnes": "2269538",
+    "nome_unidade": "SMS CMS EDGARD MAGALHAES GOMES AP 52"
+  },
+  {
+    "cnes": "2269503",
+    "nome_unidade": "SMS CMS EDUARDO A VILHENA AP 32"
+  },
+  {
+    "cnes": "2273586",
+    "nome_unidade": "SMS CMS EMYDIO CABRAL AP 53"
+  },
+  {
+    "cnes": "2708426",
+    "nome_unidade": "SMS CMS ERNANI AGRICOLA AP 10"
+  },
+  {
+    "cnes": "2270250",
+    "nome_unidade": "SMS CMS ERNESTO ZEFERINO TIBAU JR AP 10"
+  },
+  {
+    "cnes": "5315026",
+    "nome_unidade": "SMS CMS FAZENDA BOTAFOGO AP 33"
+  },
+  {
+    "cnes": "2269759",
+    "nome_unidade": "SMS CMS FLAVIO DO COUTO VIEIRA AP 33"
+  },
+  {
+    "cnes": "2273543",
+    "nome_unidade": "SMS CMS FLORIPES GALDINO PEREIRA AP 53"
+  },
+  {
+    "cnes": "2269511",
+    "nome_unidade": "SMS CMS GARFIELD DE ALMEIDA AP 52"
+  },
+  {
+    "cnes": "4046307",
+    "nome_unidade": "SMS CMS HAMILTON LAND AP 40"
+  },
+  {
+    "cnes": "2708213",
+    "nome_unidade": "SMS CMS HARVEY RIBEIRO DE SOUZA FILHO AP 40"
+  },
+  {
+    "cnes": "2269376",
+    "nome_unidade": "SMS CMS HEITOR BELTRAO AP 22"
+  },
+  {
+    "cnes": "7414226",
+    "nome_unidade": "SMS CMS HELIO PELLEGRINO AP 22"
+  },
+  {
+    "cnes": "2270439",
+    "nome_unidade": "SMS CMS HENRIQUE MONAT AP 51"
+  },
+  {
+    "cnes": "5457009",
+    "nome_unidade": "SMS CMS IRACI LOPES AP 31"
+  },
+  {
+    "cnes": "6784720",
+    "nome_unidade": "SMS CMS ITANHANGA AP 40"
+  },
+  {
+    "cnes": "2280795",
+    "nome_unidade": "SMS CMS JOAO BARROS BARRETO AP 21"
+  },
+  {
+    "cnes": "3784959",
+    "nome_unidade": "SMS CMS JOAO CANDIDO AP 31"
+  },
+  {
+    "cnes": "2296543",
+    "nome_unidade": "SMS CMS JORGE SALDANHA BANDEIRA DE MELLO AP 40"
+  },
+  {
+    "cnes": "2269902",
+    "nome_unidade": "SMS CMS JOSE BREVES DOS SANTOS AP 31"
+  },
+  {
+    "cnes": "2291274",
+    "nome_unidade": "SMS CMS JOSE MESSIAS DO CARMO AP 10"
+  },
+  {
+    "cnes": "9391983",
+    "nome_unidade": "SMS CMS JOSE PARANHOS FONTENELLE AP 31"
+  },
+  {
+    "cnes": "2273640",
+    "nome_unidade": "SMS CMS MADRE TERESA DE CALCUTA AP 31"
+  },
+  {
+    "cnes": "2270315",
+    "nome_unidade": "SMS CMS MAIA BITTENCOURT AP 52"
+  },
+  {
+    "cnes": "2277301",
+    "nome_unidade": "SMS CMS MANOEL ARTHUR VILLABOIM AP 10"
+  },
+  {
+    "cnes": "2270366",
+    "nome_unidade": "SMS CMS MANOEL DE ABREU AP 52"
+  },
+  {
+    "cnes": "6922031",
+    "nome_unidade": "SMS CMS MANOEL GUILHERME DA SILVEIRA FILHO AP 51"
+  },
+  {
+    "cnes": "2708434",
+    "nome_unidade": "SMS CMS MANOEL JOSE FERREIRA AP 21"
+  },
+  {
+    "cnes": "2288346",
+    "nome_unidade": "SMS CMS MARCOLINO CANDAU AP 10"
+  },
+  {
+    "cnes": "2280760",
+    "nome_unidade": "SMS CMS MARIA APARECIDA DE ALMEIDA AP 53"
+  },
+  {
+    "cnes": "2280272",
+    "nome_unidade": "SMS CMS MARIA AUGUSTA ESTRELLA AP 22"
+  },
+  {
+    "cnes": "2295032",
+    "nome_unidade": "SMS CMS MARIA CRISTINA ROMA PAUGARTTEN AP 31"
+  },
+  {
+    "cnes": "2708205",
+    "nome_unidade": "SMS CMS MARIO OLINTO DE OLIVEIRA AP 33"
+  },
+  {
+    "cnes": "2270633",
+    "nome_unidade": "SMS CMS MARIO VITOR DE A PACHECO AP 52"
+  },
+  {
+    "cnes": "2270560",
+    "nome_unidade": "SMS CMS MASAO GOTO AP 51"
+  },
+  {
+    "cnes": "2269805",
+    "nome_unidade": "SMS CMS MILTON FONTES MAGARAO AP 32"
+  },
+  {
+    "cnes": "2270307",
+    "nome_unidade": "SMS CMS MOURAO FILHO AP 52"
+  },
+  {
+    "cnes": "2296535",
+    "nome_unidade": "SMS CMS NAGIB JORGE FARAH AP 31"
+  },
+  {
+    "cnes": "2296586",
+    "nome_unidade": "SMS CMS NASCIMENTO GURGEL AP 33"
+  },
+  {
+    "cnes": "2280779",
+    "nome_unidade": "SMS CMS NECKER PINTO AP 31"
+  },
+  {
+    "cnes": "7856954",
+    "nome_unidade": "SMS CMS NEWTON ALVES CARDOZO AP 31"
+  },
+  {
+    "cnes": "6927254",
+    "nome_unidade": "SMS CMS NEWTON BETHLEM AP 40"
+  },
+  {
+    "cnes": "2280280",
+    "nome_unidade": "SMS CMS NICOLA ALBANO AP 22"
+  },
+  {
+    "cnes": "2280787",
+    "nome_unidade": "SMS CMS NILZA ROSA AP 22"
+  },
+  {
+    "cnes": "5465877",
+    "nome_unidade": "SMS CMS NOVO PALMARES AP 40"
+  },
+  {
+    "cnes": "2277328",
+    "nome_unidade": "SMS CMS OSWALDO CRUZ AP 10"
+  },
+  {
+    "cnes": "2270455",
+    "nome_unidade": "SMS CMS PADRE MIGUEL AP 51"
+  },
+  {
+    "cnes": "5467136",
+    "nome_unidade": "SMS CMS PARQUE ROYAL AP 31"
+  },
+  {
+    "cnes": "2270641",
+    "nome_unidade": "SMS CMS PEDRO NAVA AP 52"
+  },
+  {
+    "cnes": "2288370",
+    "nome_unidade": "SMS CMS PINDARO DE CARVALHO RODRIGUES AP 21"
+  },
+  {
+    "cnes": "5315050",
+    "nome_unidade": "SMS CMS PORTUS E QUITANDA AP 33"
+  },
+  {
+    "cnes": "3567508",
+    "nome_unidade": "SMS CMS RAPHAEL DE PAULA SOUZA AP 40"
+  },
+  {
+    "cnes": "2270293",
+    "nome_unidade": "SMS CMS RAUL BARROSO AP 52"
+  },
+  {
+    "cnes": "2280736",
+    "nome_unidade": "SMS CMS RENATO ROCCO AP 32"
+  },
+  {
+    "cnes": "7990286",
+    "nome_unidade": "SMS CMS ROCHA MAIA AP 21"
+  },
+  {
+    "cnes": "2280205",
+    "nome_unidade": "SMS CMS RODOLPHO PERISSE VIDIGAL AP 21"
+  },
+  {
+    "cnes": "6926797",
+    "nome_unidade": "SMS CMS RODOLPHO ROCCO AP 32"
+  },
+  {
+    "cnes": "2269953",
+    "nome_unidade": "SMS CMS SALLES NETTO AP 10"
+  },
+  {
+    "cnes": "5465885",
+    "nome_unidade": "SMS CMS SANTA MARIA AP 40"
+  },
+  {
+    "cnes": "6664164",
+    "nome_unidade": "SMS CMS SAO GODOFREDO AP 31"
+  },
+  {
+    "cnes": "2806320",
+    "nome_unidade": "SMS CMS SAVIO ANTUNES ANTARES AP 53"
+  },
+  {
+    "cnes": "2270552",
+    "nome_unidade": "SMS CMS SILVIO BARBOSA AP 51"
+  },
+  {
+    "cnes": "2269627",
+    "nome_unidade": "SMS CMS SYLVIO FREDERICO BRAUNER AP 33"
+  },
+  {
+    "cnes": "5598435",
+    "nome_unidade": "SMS CMS TIA ALICE AP 32"
+  },
+  {
+    "cnes": "3796310",
+    "nome_unidade": "SMS CMS VILA CANOAS AP 21"
+  },
+  {
+    "cnes": "5670357",
+    "nome_unidade": "SMS CMS VILA DO CEU AP 52"
+  },
+  {
+    "cnes": "5476844",
+    "nome_unidade": "SMS CMS VILA DO JOAO AP 31"
+  },
+  {
+    "cnes": "2270420",
+    "nome_unidade": "SMS CMS WALDYR FRANCO AP 51"
+  },
+  {
+    "cnes": "2270285",
+    "nome_unidade": "SMS CMS WOODROW PIMENTEL PANTOJA AP 52"
+  },
+  {
+    "cnes": "7106513",
+    "nome_unidade": "SMS COMPLEXO REGULADOR DA CIDADE DO RIO DE JANEIRO"
+  },
+  {
+    "cnes": "7107366",
+    "nome_unidade": "SMS COORD DE EMERG REGIONAL CER ILHA DO GOV-AP 31"
+  },
+  {
+    "cnes": "6716938",
+    "nome_unidade": "SMS COORD DE EMERGENCIA REGIONAL CER BARRA - AP 40"
+  },
+  {
+    "cnes": "6716911",
+    "nome_unidade": "SMS COORD DE EMERGENCIA REGIONAL CER CENTRO - AP 10"
+  },
+  {
+    "cnes": "6716849",
+    "nome_unidade": "SMS COORD DE EMERGENCIA REGIONAL CER LEBLON AP 21"
+  },
+  {
+    "cnes": "6995446",
+    "nome_unidade": "SMS COORD DE EMERGENCIA REGIONAL CER SANTA CRUZ AP 53"
+  },
+  {
+    "cnes": "5476321",
+    "nome_unidade": "SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 10"
+  },
+  {
+    "cnes": "5423996",
+    "nome_unidade": "SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 21"
+  },
+  {
+    "cnes": "5671388",
+    "nome_unidade": "SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 22"
+  },
+  {
+    "cnes": "5476585",
+    "nome_unidade": "SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 31"
+  },
+  {
+    "cnes": "5677351",
+    "nome_unidade": "SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 32"
+  },
+  {
+    "cnes": "5468019",
+    "nome_unidade": "SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 33"
+  },
+  {
+    "cnes": "5466032",
+    "nome_unidade": "SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 40"
+  },
+  {
+    "cnes": "5682819",
+    "nome_unidade": "SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 51"
+  },
+  {
+    "cnes": "5621720",
+    "nome_unidade": "SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 52"
+  },
+  {
+    "cnes": "5462835",
+    "nome_unidade": "SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 53"
+  },
+  {
+    "cnes": "3526097",
+    "nome_unidade": "SMS COORDENADORIA GERAL DO COMPLEXO DE ESPECIALIDADES AP 10"
+  },
+  {
+    "cnes": "2294117",
+    "nome_unidade": "SMS CORDEIRO"
+  },
+  {
+    "cnes": "5621801",
+    "nome_unidade": "SMS CSE LAPA AP 10"
+  },
+  {
+    "cnes": "6023983",
+    "nome_unidade": "SMS CSE SAO FRANCISCO DE ASSIS AP 10"
+  },
+  {
+    "cnes": "4388623",
+    "nome_unidade": "SMS DEAMB ABOLICAO ENGENHO DE DENTRO AP 32"
+  },
+  {
+    "cnes": "4538390",
+    "nome_unidade": "SMS DEAMB AMPLIA AP 21"
+  },
+  {
+    "cnes": "4325516",
+    "nome_unidade": "SMS DEAMB ANCHIETA AP 33"
+  },
+  {
+    "cnes": "4282353",
+    "nome_unidade": "SMS DEAMB GUARATIBA AP 52"
+  },
+  {
+    "cnes": "4271890",
+    "nome_unidade": "SMS DEAMB IJ VIGARIO PENHA AP 31"
+  },
+  {
+    "cnes": "5581273",
+    "nome_unidade": "SMS DEAMB INFANTO JUVENIL AP 51"
+  },
+  {
+    "cnes": "4170318",
+    "nome_unidade": "SMS DEAMB MARACANA AP 22"
+  },
+  {
+    "cnes": "4388054",
+    "nome_unidade": "SMS DEAMB PENHA AP 31"
+  },
+  {
+    "cnes": "5440203",
+    "nome_unidade": "SMS DEAMB RIO COMPRIDO CENTRO AP 10"
+  },
+  {
+    "cnes": "5581265",
+    "nome_unidade": "SMS DEAMB SANTISSIMO AP 52"
+  },
+  {
+    "cnes": "4429486",
+    "nome_unidade": "SMS DEAMB SENADOR CAMARA AP 51"
+  },
+  {
+    "cnes": "4672615",
+    "nome_unidade": "SMS DEAMB SEPETIBA AP 53"
+  },
+  {
+    "cnes": "4337549",
+    "nome_unidade": "SMS DEAMB TANQUE AP 40"
+  },
+  {
+    "cnes": "4214536",
+    "nome_unidade": "SMS DEAMB TEIAS MARECHAL HERMES AP 33"
+  },
+  {
+    "cnes": "4325508",
+    "nome_unidade": "SMS DEAMB ZONA PORTUARIA AP 10"
+  },
+  {
+    "cnes": "5456932",
+    "nome_unidade": "SMS FIOCRUZ ENSP CSE GERMANO SINVAL FARIA AP 31"
+  },
+  {
+    "cnes": "2270714",
+    "nome_unidade": "SMS HOSPITAL MATERNIDADE FERNANDO MAGALHAES AP 10"
+  },
+  {
+    "cnes": "2270390",
+    "nome_unidade": "SMS HOSPITAL MATERNIDADE HERCULANO PINHEIRO AP 33"
+  },
+  {
+    "cnes": "2298120",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL ALBERT SCHWEITZER AP 51"
+  },
+  {
+    "cnes": "2273187",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL ALVARO RAMOS AP 40"
+  },
+  {
+    "cnes": "2270242",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL BARATA RIBEIRO AP 1 0"
+  },
+  {
+    "cnes": "7041624",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL DA MULHER MARISKA RIBEIRO AP 51"
+  },
+  {
+    "cnes": "2269481",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL DA PIEDADE AP 32"
+  },
+  {
+    "cnes": "7166494",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL EVANDRO FREIRE AP 31"
+  },
+  {
+    "cnes": "2291266",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL FRANCISCO DA SILVA TELLES AP33"
+  },
+  {
+    "cnes": "2269341",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL JESUS AP 22"
+  },
+  {
+    "cnes": "2270269",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL MIGUEL COUTO AP 21"
+  },
+  {
+    "cnes": "2269724",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL NOSSA SENHORA DO LORETO AP 31"
+  },
+  {
+    "cnes": "6995462",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL PEDRO II AP 53"
+  },
+  {
+    "cnes": "2295407",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL ROCHA FARIA AP 52"
+  },
+  {
+    "cnes": "5717256",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL RONALDO GAZOLLA AP 33"
+  },
+  {
+    "cnes": "2296306",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL SALGADO FILHO AP 32"
+  },
+  {
+    "cnes": "2280183",
+    "nome_unidade": "SMS HOSPITAL MUNICIPAL SOUZA AGUIAR AP 10"
+  },
+  {
+    "cnes": "2288362",
+    "nome_unidade": "SMS INSTITUTO MUNICIPAL PHILIPPE PINEL AP 21"
+  },
+  {
+    "cnes": "7027397",
+    "nome_unidade": "SMS MATER MARIA AMELIA BUARQUE DE HOLLANDA AP 10"
+  },
+  {
+    "cnes": "2280248",
+    "nome_unidade": "SMS MATERNIDADE CARMELA DUTRA AP 32"
+  },
+  {
+    "cnes": "4575474",
+    "nome_unidade": "SMS MATERNIDADE DA ROCINHA AP 21"
+  },
+  {
+    "cnes": "2270056",
+    "nome_unidade": "SMS MATERNIDADE PAULINO WERNECK AP 31"
+  },
+  {
+    "cnes": "2293900",
+    "nome_unidade": "SMS NILOPOLIS"
+  },
+  {
+    "cnes": "4337557",
+    "nome_unidade": "SMS PADI ALBERT SCHWEITZER AP 51"
+  },
+  {
+    "cnes": "7110340",
+    "nome_unidade": "SMS PADI FRANCISCO DA SILVA TELLES AP 33"
+  },
+  {
+    "cnes": "7063679",
+    "nome_unidade": "SMS PADI LOURENCO JORGE AP 40"
+  },
+  {
+    "cnes": "6694330",
+    "nome_unidade": "SMS PADI MIGUEL COUTO AP 21"
+  },
+  {
+    "cnes": "4092104",
+    "nome_unidade": "SMS PADI PAULINO WERNECK AP 31"
+  },
+  {
+    "cnes": "7110324",
+    "nome_unidade": "SMS PADI PEDRO II AP 53"
+  },
+  {
+    "cnes": "2976706",
+    "nome_unidade": "SMS PADI ROCHA FARIA AP 52"
+  },
+  {
+    "cnes": "6694101",
+    "nome_unidade": "SMS PADI SALGADO FILHO AP 32"
+  },
+  {
+    "cnes": "2280299",
+    "nome_unidade": "SMS POLICLINICA ANTONIO RIBEIRO NETTO AP 10"
+  },
+  {
+    "cnes": "2270331",
+    "nome_unidade": "SMS POLICLINICA CARLOS ALBERTO NASCIMENTO AP 52"
+  },
+  {
+    "cnes": "2269368",
+    "nome_unidade": "SMS POLICLINICA HELIO PELLEGRINO AP 22"
+  },
+  {
+    "cnes": "2296527",
+    "nome_unidade": "SMS POLICLINICA JOSE PARANHOS FONTENELLE AP 31"
+  },
+  {
+    "cnes": "2280191",
+    "nome_unidade": "SMS POLICLINICA LINCOLN DE FREITAS FILHO AP 53"
+  },
+  {
+    "cnes": "2270048",
+    "nome_unidade": "SMS POLICLINICA MANOEL GUILHERME PAM BANGU AP 51"
+  },
+  {
+    "cnes": "2270064",
+    "nome_unidade": "SMS POLICLINICA NEWTON ALVES CARDOZO AP 31"
+  },
+  {
+    "cnes": "2708175",
+    "nome_unidade": "SMS POLICLINICA NEWTON BETHLEM AP 40"
+  },
+  {
+    "cnes": "9264612",
+    "nome_unidade": "SMS POLICLINICA ROCHA MAIA AP 21"
+  },
+  {
+    "cnes": "2270471",
+    "nome_unidade": "SMS POLICLINICA RODOLPHO ROCCO AP 32"
+  },
+  {
+    "cnes": "7638086",
+    "nome_unidade": "SMS RIO AMB ATENCAO PRIMARIA PRISIONAL AP 51"
+  },
+  {
+    "cnes": "2269945",
+    "nome_unidade": "SMS RIO HOSPITAL MATERNIDADE ALEXANDER FLEMING AP 33"
+  },
+  {
+    "cnes": "2270609",
+    "nome_unidade": "SMS RIO HOSPITAL MUNICIPAL LOURENCO JORGE AP 4 0"
+  },
+  {
+    "cnes": "2273489",
+    "nome_unidade": "SMS RIO HOSPITAL MUNICIPAL ROCHA MAIA AP21"
+  },
+  {
+    "cnes": "2273349",
+    "nome_unidade": "SMS RIO HOSPITAL RAPHAEL DE PAULA SOUZA AP 40"
+  },
+  {
+    "cnes": "2280728",
+    "nome_unidade": "SMS RIO INSTITUTO MUNICIPAL NISE DA SILVEIRA AP 32"
+  },
+  {
+    "cnes": "5462886",
+    "nome_unidade": "SMS SECRETARIA MUN DE SAUDE DO RIO DE JANEIRO"
+  },
+  {
+    "cnes": "4056167",
+    "nome_unidade": "SMS UNIDADES PRISIONAIS DE ATENCAO PRIMARIA AP 10"
+  },
+  {
+    "cnes": "4056221",
+    "nome_unidade": "SMS UNIDADES PRISIONAIS DE ATENCAO PRIMARIA AP 32"
+  },
+  {
+    "cnes": "4056310",
+    "nome_unidade": "SMS UNIDADES PRISIONAIS DE ATENCAO PRIMARIA AP 51"
+  },
+  {
+    "cnes": "6575900",
+    "nome_unidade": "SMS UPA 24H CIDADE DE DEUS AP 40"
+  },
+  {
+    "cnes": "6512925",
+    "nome_unidade": "SMS UPA 24H COMPLEXO DO ALEMAO - AP 31"
+  },
+  {
+    "cnes": "6680704",
+    "nome_unidade": "SMS UPA 24H COSTA BARROS - AP 33"
+  },
+  {
+    "cnes": "0932280",
+    "nome_unidade": "SMS UPA 24H DEL CASTILHO - AP 32"
+  },
+  {
+    "cnes": "6631169",
+    "nome_unidade": "SMS UPA 24H ENGENHO DE DENTRO AP 32"
+  },
+  {
+    "cnes": "6661904",
+    "nome_unidade": "SMS UPA 24H MADUREIRA AP 33"
+  },
+  {
+    "cnes": "6421482",
+    "nome_unidade": "SMS UPA 24H MANGUINHOS - AP 31"
+  },
+  {
+    "cnes": "7110162",
+    "nome_unidade": "SMS UPA 24H ROCHA MIRANDA - AP 33"
+  },
+  {
+    "cnes": "6507409",
+    "nome_unidade": "SMS UPA 24H ROCINHA - AP 21"
+  },
+  {
+    "cnes": "2277263",
+    "nome_unidade": "SPB BRASIL"
+  },
+  {
+    "cnes": "2938383",
+    "nome_unidade": "UBS LAGOMAR AB"
+  },
+  {
+    "cnes": "2269783",
+    "nome_unidade": "UERJ HOSPITAL UNIV PEDRO ERNESTO"
+  },
+  {
+    "cnes": "3353915",
+    "nome_unidade": "UFRJ FACULDADE DE ODONTOLOGIA"
+  },
+  {
+    "cnes": "2270668",
+    "nome_unidade": "UFRJ HOSP ESCOLA SAO FRANCISCO DE ASSIS"
+  },
+  {
+    "cnes": "2296594",
+    "nome_unidade": "UFRJ INSTITUTO DE GINECOLOGIA"
+  },
+  {
+    "cnes": "2708361",
+    "nome_unidade": "UFRJ INSTITUTO DE NEUROLOGIA DEOLINDO COUTO"
+  },
+  {
+    "cnes": "2296616",
+    "nome_unidade": "UFRJ IPPMG INST DE PUER PED MARTAGAO GESTEIRA"
+  },
+  {
+    "cnes": "2276712",
+    "nome_unidade": "UMS SANA"
+  },
+  {
+    "cnes": "7803176",
+    "nome_unidade": "UNIDADE AUTORIZADORA DE TRATAMENTO FORA DOMICILIO"
+  },
+  {
+    "cnes": "2295490",
+    "nome_unidade": "UNIDADE MISTA DE PATY DO ALFERES"
+  },
+  {
+    "cnes": "4716361",
+    "nome_unidade": "USF HORTENCIA DE ABREU WALTER"
+  }
+]

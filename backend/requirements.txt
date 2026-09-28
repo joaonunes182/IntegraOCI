@@ -1,0 +1,43 @@
+# IntegraOCI — dependências do backend
+# Versões testadas em produção no Portal-SCCS
+
+# Framework web
+Django==5.1.3
+django-ninja==1.3.0
+
+# Autenticação JWT
+djangorestframework==3.15.2
+djangorestframework_simplejwt==5.4.0
+PyJWT
+
+# CORS / CSRF / Proxy
+django-cors-headers==4.6.0
+
+# Arquivos estáticos
+whitenoise[brotli]
+
+# Configurações via .env
+python-decouple==3.8
+
+# Banco de dados — PostgreSQL (produção)
+psycopg2>=2.9.0
+
+# Banco MySQL externo — SIGTAP (opcional: busca de nomes de procedimentos)
+PyMySQL>=1.1.0
+
+# Processamento de planilhas BPA/APAC
+pandas>=2.0.0
+openpyxl>=3.0.0
+xlrd>=2.0.0
+
+# Cache — Redis (obrigatório para rate-limiting e limpeza automática)
+redis>=5.0.0
+
+# Pydantic (usado pelo django-ninja)
+pydantic==2.10.2
+pydantic_core==2.27.1
+pydantic[email]
+
+# Servidor WSGI/ASGI (produção)
+uvicorn[standard]
+gunicorn

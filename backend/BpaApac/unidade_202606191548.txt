@@ -1,0 +1,568 @@
+|cnes   |nome_unidade                                                |sigla|ap        |esfera_administrativa|
+|-------|------------------------------------------------------------|-----|----------|---------------------|
+|0112348|CENTRO DA MEDICINA NUCLEAR DA GUANABARA MIGUEL COUTO 30A    |     |PRIVADO   |PRIVADO              |
+|0189200|SMS CF ENGENHEIRO SANITARISTA PAULO D AGUILA AP 33          |     |33        |MUNICIPAL            |
+|0193089|SMS CF CRISTIANI VIEIRA PINHO AP 51                         |     |51        |MUNICIPAL            |
+|0198528|CENTRAL MUNICIPAL DE REGULACAO AREAL                        |     |FORA DO RJ|MUNICIPAL            |
+|0199338|SMS CF ADV MARIO PIRES DA SILVA AP 33                       |     |33        |MUNICIPAL            |
+|0214949|SMS CF LOURIVAL FRANCISCO DE OLIVEIRA AP 40                 |     |40        |MUNICIPAL            |
+|0215015|SMS CENTRO DE IMAGEM ROCINHA AP 21                          |     |21        |MUNICIPAL            |
+|0215066|SMS CENTRO DE IMAGEM CIDADE DE DEUS AP 40                   |     |40        |MUNICIPAL            |
+|0215112|SMS CENTRO DE IMAGEM MADUREIRA AP 33                        |     |33        |MUNICIPAL            |
+|0265233|SMS CF PADRE MARCOS VINICIO MIRANDA VIEIRA AP 40            |     |40        |MUNICIPAL            |
+|0273619|COMPLEXO REGULADOR 2 PQ DOS FERREIRAS                       |     |FORA DO RJ|MUNICIPAL            |
+|0304107|COORDENACAO DE ATENCAO BASICA                               |     |FORA DO RJ|MUNICIPAL            |
+|0310409|CEMARC CENTRAL DE REGULACAO DE SAO JOAO DE MERITI           |     |FORA DO RJ|MUNICIPAL            |
+|0425974|SMS CAPSI ILHA DO GOVERNADOR AP 31                          |     |31        |MUNICIPAL            |
+|0428590|LAR DE DANIEL CRISTOVAO                                     |     |PRIVADO   |PRIVADO              |
+|0472239|PROJETO MENINA MOCA MULHER                                  |     |SES       |ESTADUAL             |
+|0532886|CLINICA DE MEDICINA NUCLEAR VILLELA PEDRAS CAMPO GRANDE     |     |PRIVADO   |PRIVADO              |
+|0716170|GAMIR SAUDE                                                 |     |PRIVADO   |PRIVADO              |
+|0814423|CENTRAL MUNICIPAL DE REGULACAO AMBULATORIAL                 |     |FORA DO RJ|MUNICIPAL            |
+|0864994|CENTRO MEDICO CADEG                                         |     |PRIVADO   |PRIVADO              |
+|0932280|SMS UPA 24H DEL CASTILHO - AP 32                            |     |32        |MUNICIPAL            |
+|0999490|PROJETO COLIBRI                                             |     |PRIVADO   |PRIVADO              |
+|2267381|SECRETARIA MUNICIPAL DE SAUDE                               |     |FORA DO RJ|MUNICIPAL            |
+|2267551|SECRETARIA MUNICIPAL DE SAUDE DE CANTAGALO                  |     |FORA DO RJ|MUNICIPAL            |
+|2268183|CENTRO DE SAUDE DR CAROLINO RIBEIRO DE MOURA                |     |FORA DO RJ|MUNICIPAL            |
+|2269295|SMS CMS CLEMENTINO FRAGA AP 33                              |     |33        |MUNICIPAL            |
+|2269309|SMS CMS CARLOS CRUZ LIMA AP 33                              |     |33        |MUNICIPAL            |
+|2269341|SMS HOSPITAL MUNICIPAL JESUS AP 22                          |     |22        |MUNICIPAL            |
+|2269368|SMS POLICLINICA HELIO PELLEGRINO AP 22                      |     |22        |MUNICIPAL            |
+|2269376|SMS CMS HEITOR BELTRAO AP 22                                |     |22        |MUNICIPAL            |
+|2269384|HOSPITAL FEDERAL DO ANDARAI                                 |     |FEDERAL   |FEDERAL              |
+|2269392|POLICLINICA PIQUET CARNEIRO                                 |     |PRIVADO   |ESTADUAL             |
+|2269430|INSTITUTO DE PSIQUIATRIA DA UFRJ IPUB                       |     |FEDERAL   |UNIVERSITÁRIO        |
+|2269473|SEAP CGSP RJ AMB PRESIDIO ARY FRANCO                        |     |SES       |ESTADUAL             |
+|2269481|SMS HOSPITAL MUNICIPAL DA PIEDADE AP 32                     |     |32        |MUNICIPAL            |
+|2269503|SMS CMS EDUARDO A VILHENA AP 32                             |     |32        |MUNICIPAL            |
+|2269511|SMS CMS GARFIELD DE ALMEIDA AP 52                           |     |52        |MUNICIPAL            |
+|2269538|SMS CMS EDGARD MAGALHAES GOMES AP 52                        |     |52        |MUNICIPAL            |
+|2269546|SMS CMS DR OSWALDO VILELLA AP 52                            |     |52        |MUNICIPAL            |
+|2269554|SMS CMS BELIZARIO PENNA AP 52                               |     |52        |MUNICIPAL            |
+|2269562|SMS CMS DR MARIO RODRIGUES CID AP 52                        |     |52        |MUNICIPAL            |
+|2269627|SMS CMS SYLVIO FREDERICO BRAUNER AP 33                      |     |33        |MUNICIPAL            |
+|2269651|SMS CMS DOM HELDER CAMARA AP 21                             |     |21        |MUNICIPAL            |
+|2269678|SES RJ IECAC INST EST DE CARDIOLOGIA ALOYSIO DE CASTRO      |     |SES       |ESTADUAL             |
+|2269724|SMS HOSPITAL MUNICIPAL NOSSA SENHORA DO LORETO AP 31        |     |31        |MUNICIPAL            |
+|2269732|SMS CMS CARMELA DUTRA AP 33                                 |     |33        |MUNICIPAL            |
+|2269759|SMS CMS FLAVIO DO COUTO VIEIRA AP 33                        |     |33        |MUNICIPAL            |
+|2269775|MS HOSPITAL DE IPANEMA                                      |     |FEDERAL   |FEDERAL              |
+|2269783|UERJ HOSPITAL UNIV PEDRO ERNESTO                            |     |SES       |ESTADUAL             |
+|2269805|SMS CMS MILTON FONTES MAGARAO AP 32                         |     |32        |MUNICIPAL            |
+|2269821|MS INCA II HOSPITAL DO CANCER II                            |     |          |                     |
+|2269848|SMS CMS ALEXANDER FLEMING AP 51                             |     |51        |MUNICIPAL            |
+|2269880|MS HGB HOSPITAL GERAL DE BONSUCESSO                         |     |FEDERAL   |FEDERAL              |
+|2269899|HOSPITAL MARIO KROEFF                                       |     |PRIVADO   |PRIVADO              |
+|2269902|SMS CMS JOSE BREVES DOS SANTOS AP 31                        |     |31        |MUNICIPAL            |
+|2269929|SMS CMS CATTAPRETA AP 53                                    |     |53        |MUNICIPAL            |
+|2269937|SMS CMS ALBERTO BORGERTH AP 33                              |     |33        |MUNICIPAL            |
+|2269945|SMS RIO HOSPITAL MATERNIDADE ALEXANDER FLEMING AP 33        |     |33        |MUNICIPAL            |
+|2269953|SMS CMS SALLES NETTO AP 10                                  |     |10        |MUNICIPAL            |
+|2269988|MS HSE HOSPITAL DOS SERVIDORES DO ESTADO                    |     |SES       |FEDERAL              |
+|2270013|SMS CMS CECILIA DONNANGELO AP 40                            |     |40        |MUNICIPAL            |
+|2270021|MATERNIDADE ESCOLA DA UFRJ                                  |     |FEDERAL   |UNIVERSITÁRIO        |
+|2270048|SMS POLICLINICA MANOEL GUILHERME PAM BANGU AP 51            |     |51        |MUNICIPAL            |
+|2270056|SMS MATERNIDADE PAULINO WERNECK AP 31                       |     |31        |MUNICIPAL            |
+|2270064|SMS POLICLINICA NEWTON ALVES CARDOZO AP 31                  |     |31        |MUNICIPAL            |
+|2270072|SMS CMS DR ALBERT SABIN AP 21                               |     |21        |MUNICIPAL            |
+|2270102|CENTRO MEDICO DARKE                                         |     |PRIVADO   |PRIVADO              |
+|2270129|SEAP CGSP RJ AMB INSTITUTO PENAL PLACIDO SA CARVALHO        |     |          |ESTADUAL             |
+|2270137|SEAP CGSP RJ AMB INSTITUTO PENAL VICENTE PIRAGIBE           |     |SES       |ESTADUAL             |
+|2270153| SEAP CGSP RJ AMB PENITENCIARIA MONIZ SODRE                 |     |SES       |ESTADUAL             |
+|2270161|SEAP CGSP RJ HOSP DR HAMILTON AGOSTINHO VIEIRA CASTRO       |     |SES       |ESTADUAL             |
+|2270218|SEAP CGSP RJ AMB PENITENCIARIA TALAVERA BRUCE               |     |SES       |ESTADUAL             |
+|2270234|HOSPITAL ESTADUAL GETULIO VARGAS                            |     |SES       |ESTADUAL             |
+|2270242|SMS HOSPITAL MUNICIPAL BARATA RIBEIRO AP 1 0                |     |10        |MUNICIPAL            |
+|2270250|SMS CMS ERNESTO ZEFERINO TIBAU JR AP 10                     |     |10        |MUNICIPAL            |
+|2270269|SMS HOSPITAL MUNICIPAL MIGUEL COUTO AP 21                   |     |21        |MUNICIPAL            |
+|2270277|SMS CMS ALVIMAR DE CARVALHO AP 52                           |     |52        |MUNICIPAL            |
+|2270285|SMS CMS WOODROW PIMENTEL PANTOJA AP 52                      |     |52        |MUNICIPAL            |
+|2270293|SMS CMS RAUL BARROSO AP 52                                  |     |52        |MUNICIPAL            |
+|2270307|SMS CMS MOURAO FILHO AP 52                                  |     |52        |MUNICIPAL            |
+|2270315|SMS CMS MAIA BITTENCOURT AP 52                              |     |52        |MUNICIPAL            |
+|2270323|SMS CMS ADAO PEREIRA NUNES AP 52                            |     |52        |MUNICIPAL            |
+|2270331|SMS POLICLINICA CARLOS ALBERTO NASCIMENTO AP 52             |     |52        |MUNICIPAL            |
+|2270366|SMS CMS MANOEL DE ABREU AP 52                               |     |52        |MUNICIPAL            |
+|2270382|CLINICA DE FISIOTERAPIA RENASCER                            |     |          |                     |
+|2270390|SMS HOSPITAL MATERNIDADE HERCULANO PINHEIRO AP 33           |     |33        |MUNICIPAL            |
+|2270420|SMS CMS WALDYR FRANCO AP 51                                 |     |51        |MUNICIPAL            |
+|2270439|SMS CMS HENRIQUE MONAT AP 51                                |     |51        |MUNICIPAL            |
+|2270455|SMS CMS PADRE MIGUEL AP 51                                  |     |51        |MUNICIPAL            |
+|2270463|SMS CMS ATHAYDE JOSE DA FONSECA AP 51                       |     |51        |MUNICIPAL            |
+|2270471|SMS POLICLINICA RODOLPHO ROCCO AP 32                        |     |32        |MUNICIPAL            |
+|2270498|CEPOA CLINICA DE OFTALMOLOGIA                               |     |PRIVADO   |PRIVADO              |
+|2270528|ABBR                                                        |     |          |                     |
+|2270552|SMS CMS SILVIO BARBOSA AP 51                                |     |51        |MUNICIPAL            |
+|2270560|SMS CMS MASAO GOTO AP 51                                    |     |51        |MUNICIPAL            |
+|2270579|SMS CMS DR EITHEL PINHEIRO DE OLIVEIRA LIMA AP 51           |     |51        |MUNICIPAL            |
+|2270609|SMS RIO HOSPITAL MUNICIPAL LOURENCO JORGE AP 4 0            |     |40        |MUNICIPAL            |
+|2270617|INSTITUTO ESTADUAL DE DERMATOLOGIA SANITARIA                |     |SES       |ESTADUAL             |
+|2270633|SMS CMS MARIO VITOR DE A PACHECO AP 52                      |     |52        |MUNICIPAL            |
+|2270641|SMS CMS PEDRO NAVA AP 52                                    |     |52        |MUNICIPAL            |
+|2270668|UFRJ HOSP ESCOLA SAO FRANCISCO DE ASSIS                     |     |FEDERAL   |UNIVERSITÁRIO        |
+|2270714|SMS HOSPITAL MATERNIDADE FERNANDO MAGALHAES AP 10           |     |10        |MUNICIPAL            |
+|2270803|SES RJ I INST EST DIABET ENDOCRINOLOGIA IEDE                |     |SES       |ESTADUAL             |
+|2271052|CENTRO MUNICIPAL DE SAUDE FERNANDA MONTEIRO MARQUES         |     |FORA DO RJ|MUNICIPAL            |
+|2271303|SEAP CGSP RJ AMB PENITENCIARIA DR SERRANO NEVES A BANGU III |     |SES       |ESTADUAL             |
+|2271338|SEAP CGSP RJ AMB CADEIA PUBLICA JORGE SANTANNA              |     |SES       |ESTADUAL             |
+|2271346|SEAP CGSP RJ AMB CADEIA PUBLICA PEDRO MELO DA SILVA         |     |SES       |ESTADUAL             |
+|2271362|SEAP CGSP RJ AMB PENITENCIARIA ALFREDO TRANJAN              |     |SES       |ESTADUAL             |
+|2273179|SMS CMS AUGUSTO DO AMARAL PEIXOTO AP 33                     |     |33        |MUNICIPAL            |
+|2273187|SMS HOSPITAL MUNICIPAL ALVARO RAMOS AP 40                   |     |40        |MUNICIPAL            |
+|2273209|SES RJ HOSPITAL ESTADUAL SANTA MARIA                        |     |SES       |ESTADUAL             |
+|2273225|SMS CMS ARIADNE LOPES DE MENEZES AP 32                      |     |32        |MUNICIPAL            |
+|2273276|MS INST NACIONAL DE TRAUMATO ORTOPEDIA                      |     |FEDERAL   |FEDERAL              |
+|2273349|SMS RIO HOSPITAL RAPHAEL DE PAULA SOUZA AP 40               |     |40        |MUNICIPAL            |
+|2273357|HOSPITAL ADVENTISTA SILVESTRE                               |     |PRIVADO   |PRIVADO              |
+|2273365|SES RJ INSTITUTO ESTADUAL DE INFECTOLOGIA SAO SEBASTIAO     |     |          |ESTADUAL             |
+|2273411|SES RJ HOSPITAL ESTADUAL CARLOS CHAGAS                      |     |SES       |ESTADUAL             |
+|2273454|MS INCA HOSPITAL DO CANCER I                                |     |FEDERAL   |FEDERAL              |
+|2273489|SMS RIO HOSPITAL MUNICIPAL ROCHA MAIA AP21                  |     |21        |MUNICIPAL            |
+|2273543|SMS CMS FLORIPES GALDINO PEREIRA AP 53                      |     |53        |MUNICIPAL            |
+|2273551|SMS CMS ALOYSIO AMANCIO DA SILVA AP 53                      |     |53        |MUNICIPAL            |
+|2273578|SMS CMS CESARIO DE MELLO AP 53                              |     |53        |MUNICIPAL            |
+|2273586|SMS CMS EMYDIO CABRAL AP 53                                 |     |53        |MUNICIPAL            |
+|2273616|SMS CMS CYRO DE MELLO MANGUARIBA AP 53                      |     |53        |MUNICIPAL            |
+|2273632|CLINICA NOVA GUANABARA                                      |     |          |                     |
+|2273640|SMS CMS MADRE TERESA DE CALCUTA AP 31                       |     |31        |MUNICIPAL            |
+|2273659|MS HOSPITAL FEDERAL DA LAGOA                                |     |FEDERAL   |FEDERAL              |
+|2274361|SECRETARIA DE SAUDE DE SAPUCAIA                             |     |FORA DO RJ|MUNICIPAL            |
+|2276127|SECRETARIA MUNICIPAL DE SAUDE DE PARAIBA DO SUL             |     |FORA DO RJ|MUNICIPAL            |
+|2276623|ESF MORRO DE SAO JORGE                                      |     |          |                     |
+|2276712|UMS SANA                                                    |     |          |                     |
+|2277263|SPB BRASIL                                                  |     |          |                     |
+|2277298|SMS CF FERNANDO A BRAGA LOPES AP 10                         |     |10        |MUNICIPAL            |
+|2277301|SMS CMS MANOEL ARTHUR VILLABOIM AP 10                       |     |10        |MUNICIPAL            |
+|2277328|SMS CMS OSWALDO CRUZ AP 10                                  |     |10        |MUNICIPAL            |
+|2279355|HOSPITAL MUNICIPAL DR ADALBERTO DA GRACA                    |     |FORA DO RJ|MUNICIPAL            |
+|2279398|CENTRO MUNICIPAL DE SAUDE COLETIVA DE PARACAMBI             |     |FORA DO RJ|MUNICIPAL            |
+|2279754|SIRENE I                                                    |     |          |                     |
+|2280132|MS INC INSTITUTO NACIONAL DE CARDIOLOGIA                    |     |FEDERAL   |                     |
+|2280167|HOSPITAL UNIVERSITARIO CLEMENTINO FRAGA FILHO               |     |FEDERAL   |UNIVERSITÁRIO        |
+|2280183|SMS HOSPITAL MUNICIPAL SOUZA AGUIAR AP 10                   |     |10        |MUNICIPAL            |
+|2280191|SMS POLICLINICA LINCOLN DE FREITAS FILHO AP 53              |     |53        |MUNICIPAL            |
+|2280205|SMS CMS RODOLPHO PERISSE VIDIGAL AP 21                      |     |21        |MUNICIPAL            |
+|2280248|SMS MATERNIDADE CARMELA DUTRA AP 32                         |     |32        |MUNICIPAL            |
+|2280272|SMS CMS MARIA AUGUSTA ESTRELLA AP 22                        |     |22        |MUNICIPAL            |
+|2280280|SMS CMS NICOLA ALBANO AP 22                                 |     |22        |MUNICIPAL            |
+|2280299|SMS POLICLINICA ANTONIO RIBEIRO NETTO AP 10                 |     |10        |MUNICIPAL            |
+|2280310|SMS CF ERNANI DE PAIVA FERREIRA BRAGA AP 53                 |     |53        |MUNICIPAL            |
+|2280698|POLICLINICA GERAL DO RIO DE JANEIRO                         |     |PRIVADO   |PRIVADO              |
+|2280728|SMS RIO INSTITUTO MUNICIPAL NISE DA SILVEIRA AP 32          |     |32        |MUNICIPAL            |
+|2280736|SMS CMS RENATO ROCCO AP 32                                  |     |32        |MUNICIPAL            |
+|2280744|SMS CMS CARLOS GENTILLE DE MELLO AP 32                      |     |32        |MUNICIPAL            |
+|2280760|SMS CMS MARIA APARECIDA DE ALMEIDA AP 53                    |     |53        |MUNICIPAL            |
+|2280779|SMS CMS NECKER PINTO AP 31                                  |     |31        |MUNICIPAL            |
+|2280787|SMS CMS NILZA ROSA AP 22                                    |     |22        |MUNICIPAL            |
+|2280795|SMS CMS JOAO BARROS BARRETO AP 21                           |     |21        |MUNICIPAL            |
+|2283972|SEMUS                                                       |     |FORA DO RJ|MUNICIPAL            |
+|2285894|CENTRO MEDICO DR MOACYR JUNQUEIRA                           |     |FORA DO RJ|MUNICIPAL            |
+|2287862|ESF CANTAO JOAO GOMES                                       |     |FORA DO RJ|MUNICIPAL            |
+|2288338|INI FIOCRUZ                                                 |     |FEDERAL   |FEDERAL              |
+|2288346|SMS CMS MARCOLINO CANDAU AP 10                              |     |10        |MUNICIPAL            |
+|2288362|SMS INSTITUTO MUNICIPAL PHILIPPE PINEL AP 21                |     |21        |MUNICIPAL            |
+|2288370|SMS CMS PINDARO DE CARVALHO RODRIGUES AP 21                 |     |21        |MUNICIPAL            |
+|2290103|CENTRAL MUNICIPAL DE REGULACAO                              |     |FORA DO RJ|MUNICIPAL            |
+|2290502|GAN GERENCIA DE ALIMENTACAO E NUTRICAO                      |     |FORA DO RJ|MUNICIPAL            |
+|2290588|CS DE MACUCO                                                |     |FORA DO RJ|MUNICIPAL            |
+|2291266|SMS HOSPITAL MUNICIPAL FRANCISCO DA SILVA TELLES AP33       |     |33        |MUNICIPAL            |
+|2291274|SMS CMS JOSE MESSIAS DO CARMO AP 10                         |     |10        |MUNICIPAL            |
+|2291304|SESDEC RJ CENTRO PSIQUIATRICO RIO DE JANEIRO                |     |SES       |ESTADUAL             |
+|2293900|SMS NILOPOLIS                                               |     |FORA DO RJ|MUNICIPAL            |
+|2294117|SMS CORDEIRO                                                |     |FORA DO RJ|MUNICIPAL            |
+|2295032|SMS CMS MARIA CRISTINA ROMA PAUGARTTEN AP 31                |     |31        |MUNICIPAL            |
+|2295067|INSTITUTO ESTADUAL DE HEMATOLOGIA ARTHUR SIQUEIRA CAVALCANTI|     |SES       |ESTADUAL             |
+|2295210|CENTRO INTERNAC NEURORREABILITACAO E NEUROCIENCIA SARAH RIO |     |          |                     |
+|2295237|SMS CF JOAO BATISTA CHAGAS AP 53                            |     |53        |MUNICIPAL            |
+|2295253|SMS CF WALDEMAR BERARDINELLI AP 53                          |     |53        |MUNICIPAL            |
+|2295326|SMS CMR OSCAR CLARK AP 22                                   |     |22        |MUNICIPAL            |
+|2295369|ACAO CRISTA VICENTE MORETTI                                 |     |          |                     |
+|2295407|SMS HOSPITAL MUNICIPAL ROCHA FARIA AP 52                    |     |52        |MUNICIPAL            |
+|2295415|HOSPITAL UNIVERSITARIO GAFFREE E GUINLE                     |     |FEDERAL   |UNIVERSITÁRIO        |
+|2295423|MS HOSPITAL FEDERAL CARDOSO FONTES                          |     |FEDERAL   |FEDERAL              |
+|2295490|UNIDADE MISTA DE PATY DO ALFERES                            |     |FORA DO RJ|MUNICIPAL            |
+|2296306|SMS HOSPITAL MUNICIPAL SALGADO FILHO AP 32                  |     |32        |MUNICIPAL            |
+|2296527|SMS POLICLINICA JOSE PARANHOS FONTENELLE AP 31              |     |31        |MUNICIPAL            |
+|2296535|SMS CMS NAGIB JORGE FARAH AP 31                             |     |31        |MUNICIPAL            |
+|2296543|SMS CMS JORGE SALDANHA BANDEIRA DE MELLO AP 40              |     |40        |MUNICIPAL            |
+|2296551|SMS CMS AMERICO VELOSO AP 31                                |     |31        |MUNICIPAL            |
+|2296586|SMS CMS NASCIMENTO GURGEL AP 33                             |     |33        |MUNICIPAL            |
+|2296594|UFRJ INSTITUTO DE GINECOLOGIA                               |     |FEDERAL   |UNIVERSITÁRIO        |
+|2296616|UFRJ IPPMG INST DE PUER PED MARTAGAO GESTEIRA               |     |FEDERAL   |UNIVERSITÁRIO        |
+|2297876|SMS BELFORD ROXO                                            |     |FORA DO RJ|MUNICIPAL            |
+|2298120|SMS HOSPITAL MUNICIPAL ALBERT SCHWEITZER AP 51              |     |51        |MUNICIPAL            |
+|2298732|CENTRO DE MEDICINA NUCLEAR DA GUANABARA TIJUCA              |     |PRIVADO   |PRIVADO              |
+|2698854|CENTRO DE MEDICINA NUCLEAR DA GUANABARA MATRIZ              |     |PRIVADO   |PRIVADO              |
+|2708159|SMS CMR ENG DENTRO AP 32                                    |     |32        |MUNICIPAL            |
+|2708167|SMS CMS CESAR PERNETTA AP 32                                |     |32        |MUNICIPAL            |
+|2708175|SMS POLICLINICA NEWTON BETHLEM AP 40                        |     |40        |MUNICIPAL            |
+|2708183|SMS CMS DECIO AMARAL FILHO AP 53                            |     |53        |MUNICIPAL            |
+|2708205|SMS CMS MARIO OLINTO DE OLIVEIRA AP 33                      |     |33        |MUNICIPAL            |
+|2708213|SMS CMS HARVEY RIBEIRO DE SOUZA FILHO AP 40                 |     |40        |MUNICIPAL            |
+|2708353|IFF FIOCRUZ                                                 |     |FEDERAL   |FEDERAL              |
+|2708361|UFRJ INSTITUTO DE NEUROLOGIA DEOLINDO COUTO                 |     |FEDERAL   |UNIVERSITÁRIO        |
+|2708418|SMS CAPSI PEQUENO HANS AP 51                                |     |51        |MUNICIPAL            |
+|2708426|SMS CMS ERNANI AGRICOLA AP 10                               |     |10        |MUNICIPAL            |
+|2708434|SMS CMS MANOEL JOSE FERREIRA AP 21                          |     |21        |MUNICIPAL            |
+|2778696|SMS CMS CARLOS FIGUEIREDO FILHO BOREL AP 22                 |     |22        |MUNICIPAL            |
+|2806320|SMS CMS SAVIO ANTUNES ANTARES AP 53                         |     |53        |MUNICIPAL            |
+|2937387|COMPLEXO REGULADOR SANTA MARIA                              |     |FORA DO RJ|MUNICIPAL            |
+|2938383|UBS LAGOMAR AB                                              |     |          |                     |
+|2970619|SMS CENTRO CARIOCA DO OLHO AP 10                            |CCO  |SCCS      |MUNICIPAL            |
+|2970627|SMS CENTRO CARIOCA DE DIAGNOSTICO AP 10                     |CCD  |SCCS      |MUNICIPAL            |
+|2970643|SMS CENTRO CARIOCA DE ESPECIALIDADES AP 10                  |CCE  |SCCS      |MUNICIPAL            |
+|2976706|SMS PADI ROCHA FARIA AP 52                                  |     |52        |MUNICIPAL            |
+|3001202|POLICLINICA DE BOTAFOGO                                     |     |PRIVADO   |PRIVADO              |
+|3017087|POLICLINICA RONALDO GAZOLLA                                 |     |PRIVADO   |PRIVADO              |
+|3069699|SEAP CGSP RJ AMB RJ INSTITUTO PENAL OSCAR STEVENSON         |     |SES       |ESTADUAL             |
+|3069729|SEAP CGSP RJ AMB CADEIA PUBLICA PAULO ROBERTO ROCHA         |     |SES       |ESTADUAL             |
+|3081990|COMPLEXO REGULADOR SAO JOSE                                 |     |FORA DO RJ|MUNICIPAL            |
+|3122786|COSC CIRURGIA OCULAR SAO CRISTOVAO                          |     |PRIVADO   |PRIVADO              |
+|3164896|CEDIR                                                       |     |PRIVADO   |PRIVADO              |
+|3178447|CLINICA DE MEDICINA NUCLEAR VILLELA PEDRAS MATRIZ           |     |PRIVADO   |PRIVADO              |
+|3333167|HOSPITAL DO OLHO CAMPO GRANDE                               |     |PRIVADO   |PRIVADO              |
+|3344169|CENTRO AVANCADO DE OFTALMOLOGIA                             |     |PRIVADO   |PRIVADO              |
+|3348431|EURJ ESCOLA DE ULTRASSONOGRAFIA DO RIO DE JANEIRO           |     |PRIVADO   |PRIVADO              |
+|3353915|UFRJ FACULDADE DE ODONTOLOGIA                               |     |FEDERAL   |FEDERAL              |
+|3388794|CENTRO DA MEDICINA NUCLEAR DA GUANABARA COPACABANA          |     |PRIVADO   |PRIVADO              |
+|3416321|SMS CF ANTONIO GONCALVES DA SILVA AP 51                     |     |51        |MUNICIPAL            |
+|3416356|SMS CMS BUA BOANERGES BORGES DA FONSECA AP 51               |     |51        |MUNICIPAL            |
+|3416372|SMS CF ROSINO BACCARINI AP 51                               |     |51        |MUNICIPAL            |
+|3526097|SMS COORDENADORIA GERAL DO COMPLEXO DE ESPECIALIDADES AP 10 |SCCS |10        |MUNICIPAL            |
+|3567508|SMS CMS RAPHAEL DE PAULA SOUZA AP 40                        |     |40        |MUNICIPAL            |
+|3567516|SMS CAPSI III ELIZA SANTA ROZA AP 40                        |     |40        |MUNICIPAL            |
+|3567540|SMS CF ANA GONZAGA AP 52                                    |     |52        |MUNICIPAL            |
+|3567559|SMS CF VALDECIR SALUSTIANO CARDOZO AP 52                    |     |52        |MUNICIPAL            |
+|3567567|SMS CF ALKINDAR SOARES PEREIRA FILHO AP 52                  |     |52        |MUNICIPAL            |
+|3784959|SMS CMS JOAO CANDIDO AP 31                                  |     |31        |MUNICIPAL            |
+|3784975|SMS CF ZILDA ARNS AP 31                                     |     |31        |MUNICIPAL            |
+|3785009|SMS CF VALERIA GOMES ESTEVES AP 53                          |     |53        |MUNICIPAL            |
+|3785025|SMS CF RECANTO DO TROVADOR AP 22                            |     |22        |MUNICIPAL            |
+|3796310|SMS CMS VILA CANOAS AP 21                                   |     |21        |MUNICIPAL            |
+|3820599|SMS CF ARMANDO PALHARES AGUINAGA AP 51                      |     |51        |MUNICIPAL            |
+|3982742|COMPLEXO REGULADOR MUNICIPAL                                |     |FORA DO RJ|MUNICIPAL            |
+|3988724|AMBULATORIO IASERJ MARACANA                                 |     |PRIVADO   |ESTADUAL             |
+|4030990|SMS CF SAO SEBASTIAO AP 10                                  |     |10        |MUNICIPAL            |
+|4046307|SMS CMS HAMILTON LAND AP 40                                 |     |40        |MUNICIPAL            |
+|4046544|FIOCRUZ IOC LABORATORIO DE HEPATITES VIRAIS                 |     |          |FEDERAL              |
+|4056167|SMS UNIDADES PRISIONAIS DE ATENCAO PRIMARIA AP 10           |     |10        |MUNICIPAL            |
+|4056221|SMS UNIDADES PRISIONAIS DE ATENCAO PRIMARIA AP 32           |     |32        |MUNICIPAL            |
+|4056310|SMS UNIDADES PRISIONAIS DE ATENCAO PRIMARIA AP 51           |     |51        |MUNICIPAL            |
+|4092104|SMS PADI PAULINO WERNECK AP 31                              |     |31        |MUNICIPAL            |
+|4170318|SMS DEAMB MARACANA AP 22                                    |     |22        |MUNICIPAL            |
+|4178602|SMS CMS AQUIDABA AP 32                                      |     |32        |MUNICIPAL            |
+|4214536|SMS DEAMB TEIAS MARECHAL HERMES AP 33                       |     |33        |MUNICIPAL            |
+|4224361|APAE RIO FILIAL                                             |     |SMS       |MUNICIPAL            |
+|4269535|SES RJ AME JORNALISTA SUSANA NASPOLINE PAVAO PAVAOZINHO     |     |SES       |ESTADUAL             |
+|4271890|SMS DEAMB IJ VIGARIO PENHA AP 31                            |     |31        |                     |
+|4282353|SMS DEAMB GUARATIBA AP 52                                   |     |52        |MUNICIPAL            |
+|4297822|SMS CAPSI OSCAR CLARK AP 22                                 |     |22        |MUNICIPAL            |
+|4325508|SMS DEAMB ZONA PORTUARIA AP 10                              |     |10        |MUNICIPAL            |
+|4325516|SMS DEAMB ANCHIETA AP 33                                    |     |33        |MUNICIPAL            |
+|4337549|SMS DEAMB TANQUE AP 40                                      |     |40        |MUNICIPAL            |
+|4337557|SMS PADI ALBERT SCHWEITZER AP 51                            |     |51        |MUNICIPAL            |
+|4388054|SMS DEAMB PENHA AP 31                                       |     |31        |MUNICIPAL            |
+|4388623|SMS DEAMB ABOLICAO ENGENHO DE DENTRO AP 32                  |     |32        |MUNICIPAL            |
+|4404017|SMS CAPSI TIJUCA AP 22                                      |     |22        |MUNICIPAL            |
+|4404076|SMS CAPSI SANTA CRUZ AP 53                                  |     |53        |MUNICIPAL            |
+|4429486|SMS DEAMB SENADOR CAMARA AP 51                              |     |51        |MUNICIPAL            |
+|4538390|SMS DEAMB AMPLIA AP 21                                      |     |21        |MUNICIPAL            |
+|4558014|SES RJ C ESTADUAL DE DIAGNOSTICO TRANSTORNO ESPECTRO AUTISTA|     |SES       |ESTADUAL             |
+|4575474|SMS MATERNIDADE DA ROCINHA AP 21                            |     |21        |MUNICIPAL            |
+|4672615|SMS DEAMB SEPETIBA AP 53                                    |     |53        |MUNICIPAL            |
+|4716361|USF HORTENCIA DE ABREU WALTER                               |     |FORA DO RJ|MUNICIPAL            |
+|4721101|INSTITUTO PROTETORES DA PELE                                |     |PRIVADO   |PRIVADO              |
+|5044685|SMS CF ENFERMEIRA EDMA VALADAO AP 33                        |     |33        |MUNICIPAL            |
+|5154197|SMS CF DAVID CAPISTRANO FILHO AP 52                         |     |52        |MUNICIPAL            |
+|5179726|SMS CF ALOYSIO AUGUSTO NOVIS AP 31                          |     |31        |MUNICIPAL            |
+|5263263|CLINICA DE OLHOS AV RIO BRANCO                              |     |PRIVADO   |PRIVADO              |
+|5307864|HOSPITAL GERAL MUNICIPAL SAO FRANCISCO DE ASSIS             |     |FORA DO RJ|MUNICIPAL            |
+|5315026|SMS CMS FAZENDA BOTAFOGO AP 33                              |     |33        |MUNICIPAL            |
+|5315050|SMS CMS PORTUS E QUITANDA AP 33                             |     |33        |MUNICIPAL            |
+|5358612|SMS CMS CASA BRANCA AP 22                                   |     |22        |MUNICIPAL            |
+|5371120|SECRETARIA MUNICIPAL DE SAUDE DUQUE DE CAXIAS               |     |FORA DO RJ|MUNICIPAL            |
+|5417708|SMS CF SOUZA MARQUES AP 33                                  |     |33        |MUNICIPAL            |
+|5423430|SMS CAPSIII MARIA CLARA MACHADO AP 32                       |     |32        |MUNICIPAL            |
+|5423996|SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 21           |     |21        |MUNICIPAL            |
+|5440203|SMS DEAMB RIO COMPRIDO CENTRO AP 10                         |     |10        |MUNICIPAL            |
+|5447798|SMS CF HONORIO JOSE DE ANDRADE AP 32                        |     |22        |MUNICIPAL            |
+|5456932|SMS FIOCRUZ ENSP CSE GERMANO SINVAL FARIA AP 31             |     |31        |MUNICIPAL            |
+|5457009|SMS CMS IRACI LOPES AP 31                                   |     |31        |MUNICIPAL            |
+|5462835|SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 53           |     |53        |MUNICIPAL            |
+|5462886|SMS SECRETARIA MUN DE SAUDE DO RIO DE JANEIRO               |     |SMS       |MUNICIPAL            |
+|5465877|SMS CMS NOVO PALMARES AP 40                                 |     |40        |MUNICIPAL            |
+|5465885|SMS CMS SANTA MARIA AP 40                                   |     |40        |MUNICIPAL            |
+|5466032|SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 40           |     |40        |MUNICIPAL            |
+|5467136|SMS CMS PARQUE ROYAL AP 31                                  |     |31        |MUNICIPAL            |
+|5468019|SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 33           |     |33        |MUNICIPAL            |
+|5476321|SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 10           |     |10        |MUNICIPAL            |
+|5476585|SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 31           |     |31        |MUNICIPAL            |
+|5476607|SMS CF ADIB JATENE AP 31                                    |     |31        |MUNICIPAL            |
+|5476844|SMS CMS VILA DO JOAO AP 31                                  |     |31        |MUNICIPAL            |
+|5482070|ESF CAJUEIROS                                               |     |FORA DO RJ|MUNICIPAL            |
+|5483662|ESF LAGOMAR BC                                              |     |          |                     |
+|5511607|SEAP CGSP RJ AMB INSTITUTO PENAL BENJAMIM DE MORAES         |     |SES       |ESTADUAL             |
+|5511690|SEAP CGSP RJ AMB PENITENCIARIA GABRIEL FERREIRA CASTILHO    |     |SES       |ESTADUAL             |
+|5546583|SMS CMS CATIRI AP 51                                        |     |51        |MUNICIPAL            |
+|5546591|SMS CF MARIA JOSE DE SOUSA BARBOSA AP 51                    |     |51        |MUNICIPAL            |
+|5555667|CER ANDARAI                                                 |     |SMS       |MUNICIPAL            |
+|5581265|SMS DEAMB SANTISSIMO AP 52                                  |     |52        |MUNICIPAL            |
+|5581273|SMS DEAMB INFANTO JUVENIL AP 51                             |     |51        |MUNICIPAL            |
+|5598435|SMS CMS TIA ALICE AP 32                                     |     |32        |MUNICIPAL            |
+|5620287|SMS CF AGENOR DE MIRANDA ARAUJO NETO AP 52                  |     |52        |MUNICIPAL            |
+|5621720|SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 52           |     |52        |MUNICIPAL            |
+|5621801|SMS CSE LAPA AP 10                                          |     |10        |MUNICIPAL            |
+|5670357|SMS CMS VILA DO CEU AP 52                                   |     |52        |MUNICIPAL            |
+|5671388|SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 22           |     |22        |MUNICIPAL            |
+|5677351|SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 32           |     |32        |MUNICIPAL            |
+|5682819|SMS COORDENADORIA GERAL DE ATENCAO PRIMARIA AP 51           |     |51        |MUNICIPAL            |
+|5717256|SMS HOSPITAL MUNICIPAL RONALDO GAZOLLA AP 33                |     |33        |MUNICIPAL            |
+|5727855|CENTRO OFTALMOLOGICO SAO MATHEUS                            |     |PRIVADO   |PRIVADO              |
+|5879655|SMS CMS ALICE TOLEDO TIBIRICA AP 33                         |     |33        |MUNICIPAL            |
+|5939720|COMPLEXO REGULADOR DE SAO GONCALO                           |     |FORA DO RJ|MUNICIPAL            |
+|5955211|SES UPA 24H MARE AP 31                                      |     |SES       |ESTADUAL             |
+|5955661|SES RJ UPA 24H TIJUCA                                       |     |SES       |ESTADUAL             |
+|5955688|SES RJ UPA 24H RICARDO DE ALBUQUERQUE                       |     |SES       |                     |
+|6023320|SMS CF AUGUSTO BOAL AP 31                                   |     |31        |MUNICIPAL            |
+|6023916|SMS CF FIORELLO RAYMUNDO AP 51                              |     |51        |MUNICIPAL            |
+|6023975|SMS CF DONA ZICA AP 10                                      |     |10        |MUNICIPAL            |
+|6023983|SMS CSE SAO FRANCISCO DE ASSIS AP 10                        |     |10        |MUNICIPAL            |
+|6026737|SMS CMS ADELINO SIMOES NOVA SEPETIBA AP 53                  |     |53        |MUNICIPAL            |
+|6028233|SMS CF ESTACIO DE SA AP 10                                  |     |10        |MUNICIPAL            |
+|6029825|SMS CMS CARLOS ALBERTO NASCIMENTO AP 52                     |     |52        |MUNICIPAL            |
+|6029841|SMS CF ROGERIO ROCCO AP 52                                  |     |52        |MUNICIPAL            |
+|6029922|SMS CMS AGUIAR TORRES AP 52                                 |     |52        |MUNICIPAL            |
+|6029965|SMS CF MARCOS VALADAO AP 33                                 |     |33        |MUNICIPAL            |
+|6033121|SMS CMS ANTENOR NASCENTES AP 32                             |     |32        |MUNICIPAL            |
+|6037569|SES RJ UPA 24H MARECHAL HERMES                              |     |SES       |ESTADUAL             |
+|6038891|SES RJ UPA 24H ENGENHO NOVO                                 |     |SES       |ESTADUAL             |
+|6038913|SES UPA 24H PENHA AP 31                                     |     |31        |MUNICIPAL            |
+|6067522|COMPLEXO REGULADOR                                          |     |FORA DO RJ|MUNICIPAL            |
+|6159192|SECRETARIA MUNICIPAL DE SAUDE DE PORTO REAL                 |     |FORA DO RJ|MUNICIPAL            |
+|6185045|SMS CAPSI JOAO DE BARRO AP 52                               |     |52        |MUNICIPAL            |
+|6203515|CENTRAL DE REGULACAO DE QUEIMADOS                           |     |FORA DO RJ|                     |
+|6220584|SES RJ UPA 24H BOTAFOGO                                     |     |SES       |ESTADUAL             |
+|6225152|SECRETARIA MUNICIPAL DE SAUDE DE QUEIMADOS                  |     |FORA DO RJ|MUNICIPAL            |
+|6272053|SMS CF SANTA MARTA AP 21                                    |     |21        |MUNICIPAL            |
+|6298109|SECRETARIA MUNICIPAL DE SAUDE DE CAMPOS DOS GOYTACAZES      |     |FORA DO RJ|MUNICIPAL            |
+|6321690|NUCLEO ADVENTISTA SILVESTRE DE SAUDE E PREVENCAO            |     |PRIVADO   |PRIVADO              |
+|6323413|SECRETARIA MUNICIPAL DE SAUDE DE BARRA MANSA                |     |FORA DO RJ|MUNICIPAL            |
+|6361307|SECRETARIA MUNICIPAL DE SAUDE DE ITATIAIA                   |     |FORA DO RJ|MUNICIPAL            |
+|6387152|SMS CF OLIMPIA ESTEVES AP 51                                |     |51        |MUNICIPAL            |
+|6389317|CENTRO DE MEDICINA NUCLEAR GUANABARA CAMPO GRANDE           |     |PRIVADO   |PRIVADO              |
+|6407412|CENTRO DE ESTUDOS DE SAUDE DO TRABALHADOR E ECOLOGIA HUMANA |     |          |                     |
+|6421482|SMS UPA 24H MANGUINHOS - AP 31                              |     |31        |MUNICIPAL            |
+|6422608|SECRETARIA MUNICIPAL DE SAUDE DE RIO DAS OSTRAS             |     |FORA DO RJ|MUNICIPAL            |
+|6422810|SECRETARIA MUNICIPAL DE SAUDE DE MIGUEL PEREIRA             |     |FORA DO RJ|MUNICIPAL            |
+|6426484|SECRETARIA MUNICIPAL DE SAUDE DE JAPERI                     |     |FORA DO RJ|MUNICIPAL            |
+|6432352|SECRETARIA MUNICIPAL DE SAUDE DE SEROPEDICA                 |     |FORA DO RJ|MUNICIPAL            |
+|6435459|SECRETARIA MUNICIPAL DE SAUDE DE MENDES                     |     |FORA DO RJ|MUNICIPAL            |
+|6458181|SECRETARIA MUNICIPAL DE SAUDE                               |     |FORA DO RJ|MUNICIPAL            |
+|6460712|SES RJ CENTRAL EST REGIONAL REGULACAO METROPOLITANA II      |     |SES       |ESTADUAL             |
+|6460852|SES RJ CENTRAL EST REGIONAL REGULACAO CENTRO SUL            |     |SES       |ESTADUAL             |
+|6464491|SECRETARIA MUNICIPAL DE SAUDE DE SAQUAREMA                  |     |FORA DO RJ|MUNICIPAL            |
+|6473245|SECRETARIA MUNICIPAL DE SAUDE DE MAGE                       |     |FORA DO RJ|MUNICIPAL            |
+|6488013|SECRETARIA MUNICIPAL DE SAUDE DE TERESOPOLIS                |     |FORA DO RJ|MUNICIPAL            |
+|6496989|SMS CF CANTAGALO PAVAO PAVAOZINHO AP 21                     |     |21        |MUNICIPAL            |
+|6503772|SMS CF MARIA DO SOCORRO ROCINHA AP 21                       |     |21        |MUNICIPAL            |
+|6506232|SMS CF RINALDO DE LAMARE AP 21                              |     |21        |MUNICIPAL            |
+|6507409|SMS UPA 24H ROCINHA - AP 21                                 |     |21        |MUNICIPAL            |
+|6512925|SMS UPA 24H COMPLEXO DO ALEMAO - AP 31                      |     |31        |MUNICIPAL            |
+|6514022|SMS CF VICTOR VALLA AP 31                                   |     |31        |MUNICIPAL            |
+|6521282|SECRETARIA MUNICIPAL DE SAUDE                               |     |FORA DO RJ|MUNICIPAL            |
+|6524486|SMS CF RODRIGO Y AGUILAR ROIG AP 31                         |     |31        |MUNICIPAL            |
+|6542042|COMPLEXO REGULADOR DE BELFORD ROXO                          |     |FORA DO RJ|MUNICIPAL            |
+|6559727|SMS CF ILZO MOTTA DE MELLO AP 53                            |     |53        |MUNICIPAL            |
+|6559735|SMS CF LENICE MARIA MONTEIRO COELHO AP 53                   |     |53        |MUNICIPAL            |
+|6568491|SMS CF MARIA SEBASTIANA DE OLIVEIRA AP 31                   |     |31        |MUNICIPAL            |
+|6570496|CENOM                                                       |     |          |                     |
+|6571956|SMS CF JOSUETE SANTANNA DE OLIVEIRA AP 33                   |     |33        |MUNICIPAL            |
+|6572014|SMS CF LOURENCO DE MELLO AP 53                              |     |53        |MUNICIPAL            |
+|6575900|SMS UPA 24H CIDADE DE DEUS AP 40                            |     |40        |MUNICIPAL            |
+|6576524|SECRETARIA MUNICIPAL DE SAUDE DE RIO DAS FLORES             |     |FORA DO RJ|MUNICIPAL            |
+|6581994|SMS CF JOSE ANTONIO CIRAUDO AP 53                           |     |53        |MUNICIPAL            |
+|6591817|SECRETARIA MUNICIPAL DE SAUDE CARMO                         |     |FORA DO RJ|MUNICIPAL            |
+|6610129|FISIOLOGIC CLINICA DE FISIOTERAPIA EM TRAUMATO ORTOPEDIA    |     |          |                     |
+|6618855|SMS CF SERGIO AROUCA AP 53                                  |     |53        |MUNICIPAL            |
+|6618863|SMS CF HELANDE DE MELLO GONCALVES AP 53                     |     |53        |MUNICIPAL            |
+|6618871|SMS CF JAMIL HADDAD AP 53                                   |     |53        |MUNICIPAL            |
+|6631169|SMS UPA 24H ENGENHO DE DENTRO AP 32                         |     |32        |ESTADUAL             |
+|6632831|SMS CMS CHAPEU MANG BABILONIA AP 21                         |     |21        |MUNICIPAL            |
+|6635709|SMS CF JOSE DE PAULA LOPES PONTES AP 52                     |     |52        |MUNICIPAL            |
+|6647057|CENTRAL DE REGULACAO DE QUISSAMA RJ                         |     |FORA DO RJ|MUNICIPAL            |
+|6648371|SMS CF HANS JURGEN FERNANDO DOHMANN AP 52                   |     |52        |MUNICIPAL            |
+|6660185|SMS CF DEOLINDO COUTO AP 53                                 |     |53        |MUNICIPAL            |
+|6661904|SMS UPA 24H MADUREIRA AP 33                                 |     |33        |MUNICIPAL            |
+|6664040|SMS CF HEITOR DOS PRAZERES AP 31                            |     |31        |MUNICIPAL            |
+|6664075|SMS CF FELIPPE CARDOSO AP 31                                |     |31        |MUNICIPAL            |
+|6664164|SMS CMS SAO GODOFREDO AP 31                                 |     |31        |MUNICIPAL            |
+|6671020|SMS CF EDSON ABDALLA SAAD AP 53                             |     |53        |MUNICIPAL            |
+|6674291|CENTRAL DE REGULACAO DE MIGUEL PEREIRA                      |     |FORA DO RJ|MUNICIPAL            |
+|6677304|SECRETARIA MUNICIPAL DE SAUDE DE CARAPEBUS                  |     |FORA DO RJ|MUNICIPAL            |
+|6677711|SMS CF DALMIR DE ABREU SALGADO AP 52                        |     |52        |MUNICIPAL            |
+|6680704|SMS UPA 24H COSTA BARROS - AP 33                            |     |33        |MUNICIPAL            |
+|6681379|SMS CF HERBERT JOSE DE SOUZA AP 32                          |     |32        |MUNICIPAL            |
+|6683851|SMS CF SAMUEL PENHA VALLE AP 53                             |     |53        |MUNICIPAL            |
+|6688152|SMS CF IZABEL DOS SANTOS AP 32                              |     |32        |MUNICIPAL            |
+|6694101|SMS PADI SALGADO FILHO AP 32                                |     |32        |MUNICIPAL            |
+|6694330|SMS PADI MIGUEL COUTO AP 21                                 |     |21        |MUNICIPAL            |
+|6706630|NUCLEO DE CONTROLE AVALIACAO REGULACAO E AUDITORIA          |     |FORA DO RJ|MUNICIPAL            |
+|6713564|SMS CF ANNA NERY AP 32                                      |     |32        |MUNICIPAL            |
+|6716598|SMS CF MAURY ALVES DE PINHO AP 40                           |     |40        |MUNICIPAL            |
+|6716849|SMS COORD DE EMERGENCIA REGIONAL CER LEBLON AP 21           |     |21        |MUNICIPAL            |
+|6716911|SMS COORD DE EMERGENCIA REGIONAL CER CENTRO - AP 10         |     |10        |MUNICIPAL            |
+|6716938|SMS COORD DE EMERGENCIA REGIONAL CER BARRA - AP 40          |     |40        |MUNICIPAL            |
+|6742130|SMS CF EMYGDIO ALVES COSTA FILHO AP 32                      |     |32        |MUNICIPAL            |
+|6761704|SMS CF MARIA DE AZEVEDO RODRIGUES PEREIRA AP 33             |     |33        |MUNICIPAL            |
+|6762042|SMS CF EDNEY CANAZARO DE OLIVEIRA AP 32                     |     |32        |MUNICIPAL            |
+|6774210|SECRETARIA MUNICIPAL DE SAUDE ENGENHEIRO PAULO DE FRONTIN   |     |FORA DO RJ|MUNICIPAL            |
+|6784720|SMS CMS ITANHANGA AP 40                                     |     |40        |MUNICIPAL            |
+|6793231|SMS CF EPITACIO SOARES REIS AP 33                           |     |33        |MUNICIPAL            |
+|6804209|SMS CF ASSIS VALENTE AP 31                                  |     |31        |MUNICIPAL            |
+|6808077|SMS CF ANTHIDIO DIAS DA SILVEIRA AP 32                      |     |32        |MUNICIPAL            |
+|6810969|FAMAD FUNDACAO AMELIA DIAS DE ASSIST AO M A P N ESPECIAIS   |     |          |                     |
+|6820018|SMS CF BARBARA STARFIELD AP 32                              |     |32        |MUNICIPAL            |
+|6843832|CENTRAL DE REGULACAO CREG                                   |     |FORA DO RJ|                     |
+|6852203|SMS CF KELLY CRISTINA DE SA LACERDA SILVA AP 51             |     |51        |MUNICIPAL            |
+|6853242|CENTRO FONOAUDIOLOGICO EDUCACIONAL ARAUJO CID               |     |          |                     |
+|6855709|SMS CF PADRE JOHN CRIBBIN PADRE JOAO AP 51                  |     |51        |MUNICIPAL            |
+|6858317|SES RJ UPA 24H COPACABANA                                   |     |SES       |ESTADUAL             |
+|6864708|SMS CF MARIO DIAS ALENCAR AP 51                             |     |51        |MUNICIPAL            |
+|6869009|SMS CF ANA MARIA CONCEICAO DOS SANTOS CORREIA AP 33         |     |33        |MUNICIPAL            |
+|6873960|SMS CF SERGIO VIEIRA DE MELLO AP 10                         |     |10        |MUNICIPAL            |
+|6886973|SECRETARIA MUNICIPAL DE SAUDE DE MARICA                     |     |FORA DO RJ|MUNICIPAL            |
+|6891675|SECRETARIA MUNICIPAL DE SAUDE DE MANGARATIBA                |     |FORA DO RJ|MUNICIPAL            |
+|6901042|SMS CF NILDO EYMAR DE ALMEIDA AGUIAR AP 51                  |     |51        |MUNICIPAL            |
+|6914152|SMS CF BIBI VOGEL AP 32                                     |     |32        |MUNICIPAL            |
+|6918417|SES RJ CENTRO ESTADUAL DE DIAGNOSTICO POR IMAGEM            |     |SES       |ESTADUAL             |
+|6919626|SMS CF SERGIO NICOLAU AMIN AP 32                            |     |32        |MUNICIPAL            |
+|6922031|SMS CMS MANOEL GUILHERME DA SILVEIRA FILHO AP 51            |     |51        |MUNICIPAL            |
+|6926797|SMS CMS RODOLPHO ROCCO AP 32                                |     |32        |MUNICIPAL            |
+|6927254|SMS CMS NEWTON BETHLEM AP 40                                |     |40        |MUNICIPAL            |
+|6927289|SMS CF OTTO ALVES DE CARVALHO AP 40                         |     |40        |MUNICIPAL            |
+|6927319|SMS CF PADRE JOSE DE AZEVEDO TIUBA AP 40                    |     |40        |MUNICIPAL            |
+|6929885|SECRETARIA MUNICIPAL DE SAUDE                               |     |FORA DO RJ|MUNICIPAL            |
+|6932916|SMS CF JOAOSINHO TRINTA AP 31                               |     |31        |MUNICIPAL            |
+|6974708|SMS CF MAESTRO CELESTINO AP 33                              |     |33        |MUNICIPAL            |
+|6977863|CENTRAL DE REGULACAO DE MESQUITA                            |     |FORA DO RJ|MUNICIPAL            |
+|6995446|SMS COORD DE EMERGENCIA REGIONAL CER SANTA CRUZ AP 53       |     |53        |MUNICIPAL            |
+|6995462|SMS HOSPITAL MUNICIPAL PEDRO II AP 53                       |     |53        |MUNICIPAL            |
+|6996892|SEAP CGSP RJ AMB PENITENCIARIA BANDEIRA STAMPA              |     |SES       |ESTADUAL             |
+|7021771|SMS CF RAIMUNDO ALVES NASCIMENTO AP 33                      |     |33        |MUNICIPAL            |
+|7027397|SMS MATER MARIA AMELIA BUARQUE DE HOLLANDA AP 10            |     |10        |MUNICIPAL            |
+|7036884|SMS CF SONIA MARIA FERREIRA MACHADO AP 52                   |     |52        |MUNICIPAL            |
+|7036914|SMS CF ANTONIO GONCALVES VILLA SOBRINHO AP 52               |     |52        |MUNICIPAL            |
+|7041624|SMS HOSPITAL MUNICIPAL DA MULHER MARISKA RIBEIRO AP 51      |     |51        |MUNICIPAL            |
+|7052006|SMS CAPSIII MAURICIO DE SOUSA AP 21                         |     |21        |MUNICIPAL            |
+|7052049|SMS CF CARIOCA AP 32                                        |     |32        |MUNICIPAL            |
+|7060335|SMS CAPSI VISCONDE DE SABUGOSA AP 31                        |     |31        |MUNICIPAL            |
+|7063679|SMS PADI LOURENCO JORGE AP 40                               |     |40        |MUNICIPAL            |
+|7069448|CENTRO OFTALMOLOGICO ANA BARBOSA                            |     |PRIVADO   |PRIVADO              |
+|7069502|CLINICA DE MEDICINA NUCLEAR VILLELA PEDRAS FILIAL LEBLON    |     |PRIVADO   |PRIVADO              |
+|7088574|SMS CF MANOEL FERNANDES DE ARAUJO AP 33                     |     |33        |MUNICIPAL            |
+|7106513|SMS COMPLEXO REGULADOR DA CIDADE DO RIO DE JANEIRO          |     |SMS       |MUNICIPAL            |
+|7107366|SMS COORD DE EMERG REGIONAL CER ILHA DO GOV-AP 31           |     |31        |MUNICIPAL            |
+|7108265|SMS CF DANTE ROMANO JUNIOR AP 33                            |     |33        |MUNICIPAL            |
+|7110162|SMS UPA 24H ROCHA MIRANDA - AP 33                           |     |33        |MUNICIPAL            |
+|7110324|SMS PADI PEDRO II AP 53                                     |     |53        |MUNICIPAL            |
+|7110340|SMS PADI FRANCISCO DA SILVA TELLES AP 33                    |     |33        |MUNICIPAL            |
+|7113137|SMS CAPSI HEITOR VILLA LOBOS AP 33                          |     |33        |MUNICIPAL            |
+|7119798|SMS CF CARLOS NERY DA COSTA FILHO AP 33                     |     |33        |MUNICIPAL            |
+|7136803|INSTITUTO CARLOS CHAGAS                                     |     |FEDERAL   |FEDERAL              |
+|7142714|SECRETARIA MUNICIPAL DE SAUDE DE PARACAMBI                  |     |FORA DO RJ|MUNICIPAL            |
+|7151624|CENTRAL MUNICIPAL DE REGULACAO DE BARRA DO PIRAI            |     |FORA DO RJ|MUNICIPAL            |
+|7164793|CENTRAL DE REGULACAO DE VASSOURAS                           |     |FORA DO RJ|MUNICIPAL            |
+|7165765|CLINICA DE OLHOS AV RIO BRANCO MATRIZ                       |     |PRIVADO   |PRIVADO              |
+|7166494|SMS HOSPITAL MUNICIPAL EVANDRO FREIRE AP 31                 |     |31        |MUNICIPAL            |
+|7175671|SECRETARIA MUNICIPAL DE SAUDE DE CANTAGALO                  |     |FORA DO RJ|MUNICIPAL            |
+|7176511|AFIP TDN RJ                                                 |     |          |                     |
+|7185081|SES RJ HOSPITAL ESTADUAL TRANSPLANTE CANCER E CIR INFANTIL  |     |SES       |ESTADUAL             |
+|7221673|SECRETARIA MUNICIPAL DE SAUDE DE CABO FRIO                  |     |FORA DO RJ|MUNICIPAL            |
+|7269749|CENTRAL DE REGULACAO DE TANGUA                              |     |FORA DO RJ|MUNICIPAL            |
+|7381905|CARDIOMEX                                                   |     |PRIVADO   |PRIVADO              |
+|7408536|COMPLEXO REGULADOR DO MUNICIPIO DE ITAGUAI                  |     |FORA DO RJ|MUNICIPAL            |
+|7414196|CENTRAL MUNICIPAL DE REGULACAO DR VINICIUS QUINTELA         |     |FORA DO RJ|MUNICIPAL            |
+|7414226|SMS CMS HELIO PELLEGRINO AP 22                              |     |22        |MUNICIPAL            |
+|7481535|CENTRAL DE REGULACAO MUNICIPAL DE MARICA                    |     |FORA DO RJ|MUNICIPAL            |
+|7492987|CLIN E CIR DE OLHOS DRA ROBERLI B PINTO E DR MIZAEL PINTO   |     |PRIVADO   |PRIVADO              |
+|7516800|SES RJ HOSPITAL ESTADUAL EDUARDO RABELLO                    |     |SES       |ESTADUAL             |
+|7517017|SECRETARIA MUNICIPAL DE SAUDE DE CONCEICAO DE MACABU        |     |FORA DO RJ|MUNICIPAL            |
+|7523246|SMS CF NELIO DE OLIVEIRA AP 10                              |     |10        |MUNICIPAL            |
+|7584342|CENTRO DE MEDICINA NUCLEAR DA GUANABARA MADUREIRA           |     |PRIVADO   |PRIVADO              |
+|7592167|SES RJ MAMOGRAFO MOVEL                                      |     |SES       |ESTADUAL             |
+|7638086|SMS RIO AMB ATENCAO PRIMARIA PRISIONAL AP 51                |     |51        |MUNICIPAL            |
+|7655703|HOSPITAL PUBLICO MUNICIPAL DA SERRA HPMS                    |     |FORA DO RJ|MUNICIPAL            |
+|7698313|AMO RX                                                      |     |PRIVADO   |PRIVADO              |
+|7722494|SMS CF FAIM PEDRO AP 51                                     |     |51        |MUNICIPAL            |
+|7723296|SMS CF EVERTON DE SOUZA SANTOS AP 52                        |     |52        |MUNICIPAL            |
+|7790740|SECRETARIA MUNICIPAL DE SAUDE                               |     |FORA DO RJ|MUNICIPAL            |
+|7803176|UNIDADE AUTORIZADORA DE TRATAMENTO FORA DOMICILIO           |     |FORA DO RJ|MUNICIPAL            |
+|7810172|SMS CF SANDRA REGINA SAMPAIO DE SOUZA AP 51                 |     |51        |MUNICIPAL            |
+|7856954|SMS CMS NEWTON ALVES CARDOZO AP 31                          |     |31        |MUNICIPAL            |
+|7873565|SMS CF JOSE DE SOUZA HERDY AP 40                            |     |40        |MUNICIPAL            |
+|7874162|SMS CF WILSON MELLO SANTOS ZICO AP 51                       |     |51        |MUNICIPAL            |
+|7882521|CENTRO MEDICO E OFTALMOLOGICO HAMA                          |     |PRIVADO   |PRIVADO              |
+|7892802|SMS CF ADOLFO FERREIRA DE CARVALHO AP 33                    |     |33        |MUNICIPAL            |
+|7892810|SMS CF BARBARA MOSLEY DE SOUZA AP 40                        |     |40        |MUNICIPAL            |
+|7892829|SMS CF HELENA BESSERMAN VIANNA AP 40                        |     |40        |MUNICIPAL            |
+|7894554|SMS CF ISABELA SEVERO DA SILVA AP 52                        |     |52        |MUNICIPAL            |
+|7896204|SMS CF ALICE DE JESUS REGO AP 53                            |     |53        |MUNICIPAL            |
+|7908237|SMS CF LECY RANQUINE AP 52                                  |     |52        |MUNICIPAL            |
+|7911076|CEMEQ CENTRO DE ESPECIALIDADE FRANCISCO VIRGILIO DA C PRADO |     |FORA DO RJ|                     |
+|7929609|INSTITUTO DO RIM E DO CEREBRO SERVICOS MEDICOS              |     |PRIVADO   |PRIVADO              |
+|7985657|SMS CF EIDIMIR THIAGO DE SOUZA AP 31                        |     |31        |MUNICIPAL            |
+|7986505|SMS CF LUIZ CELIO PEREIRA AP 32                             |     |32        |MUNICIPAL            |
+|7990286|SMS CMS ROCHA MAIA AP 21                                    |     |21        |MUNICIPAL            |
+|7995520|SMS CF MAICON SIQUEIRA AP 40                                |     |40        |MUNICIPAL            |
+|7996675|SMS CF GERSON BERGHER AP 40                                 |     |40        |MUNICIPAL            |
+|7998678|SMS CF IVANIR DE MELLO AP 33                                |     |33        |MUNICIPAL            |
+|8062900|SMS CF DYMAS JOSEPH PELLEGRIN AP 40                         |     |40        |MUNICIPAL            |
+|8148015|SMS CENTRO CARIOCA DE REABILITACAO DA ZONA OESTE AP 52      |     |52        |MUNICIPAL            |
+|8148023|SMS CENTRO CARIOCA DE ESPECIALIDADE DA ZONA OESTE AP 52     |     |52        |MUNICIPAL            |
+|8186839|SMS CEDTEA IRAJA AP 33                                      |     |33        |MUNICIPAL            |
+|9002448|COMPLEXO REGULADOR DE SEROPEDICA                            |     |FORA DO RJ|MUNICIPAL            |
+|9016805|SMS CF NILDA CAMPOS DE LIMA AP 31                           |     |31        |MUNICIPAL            |
+|9023089|SMS CF ROGERIO PINTO DA MOTA AP 51                          |     |51        |MUNICIPAL            |
+|9025456|CENTRAL DE REGULACAO DE NITEROI                             |     |FORA DO RJ|MUNICIPAL            |
+|9045023|SMS CF OLGA PEREIRA PACHECO AP 32                           |     |32        |MUNICIPAL            |
+|9057706|SMS CF ESTIVADORES AP 10                                    |     |10        |MUNICIPAL            |
+|9057722|SMS CF ADERSON FERNANDES AP 33                              |     |33        |MUNICIPAL            |
+|9061398|SMS CF MEDALHISTA OLIMPICO BRUNO SCHMIDT AP 52              |     |52        |MUNICIPAL            |
+|9061401|SMS CF MEDALHISTA OLIMPICO ARTHUR ZANETTI AP 52             |     |52        |MUNICIPAL            |
+|9067078|SMS CF ODALEA FIRMO DUTRA AP 22                             |     |22        |MUNICIPAL            |
+|9071385|SMS CF ARTHUR BISPO DO ROSARIO AP 40                        |     |40        |MUNICIPAL            |
+|9072640|SMS CF MESTRE MOLEQUINHO DO IMPERIO AP 33                   |     |33        |MUNICIPAL            |
+|9072659|SMS CF WILMA COSTA AP 31                                    |     |31        |MUNICIPAL            |
+|9075143|SMS CF KLEBEL DE OLIVEIRA ROCHA AP 31                       |     |31        |MUNICIPAL            |
+|9078983|SMS CF CYPRIANO DAS CHAGAS MEDEIROS AP 33                   |     |33        |MUNICIPAL            |
+|9079939|SMS CF MEDALHISTA OLIMPICO MAURICIO SILVA AP 10             |     |10        |MUNICIPAL            |
+|9080163|SMS CF MEDALHISTA OLIMPICO RICARDO LUCARELLI SOUZA AP 10    |     |10        |MUNICIPAL            |
+|9101764|SMS CF AMELIA DOS SANTOS FERREIRA AP 32                     |     |32        |MUNICIPAL            |
+|9107835|SMS CF VALTER FELISBINO DE SOUZA AP 31                      |     |31        |MUNICIPAL            |
+|9111328|CENTRAL DE REGULACAO LEVY GASPARIAN                         |     |FORA DO RJ|MUNICIPAL            |
+|9111344|SMS CF CANDIDO RIBEIRO DA SILVA FILHO AP 33                 |     |33        |MUNICIPAL            |
+|9127100|SMS CF JOSE NEVES AP 40                                     |     |40        |MUNICIPAL            |
+|9128867|SMS CF AMAURY BOTTANY AP 33                                 |     |33        |MUNICIPAL            |
+|9131795|SMS CF ERIVALDO FERNANDES NOBREGA AP 32                     |     |32        |MUNICIPAL            |
+|9131884|SMS CF DEPUTADO PEDRO FERNANDES FILHO AP 33                 |     |33        |MUNICIPAL            |
+|9135634|CLINICA DE DIAGNOSTICO KHAYAT                               |     |PRIVADO   |PRIVADO              |
+|9209263|SECRETARIA MUNICIPAL DE SAUDE DE PATY DO ALFERES            |     |FORA DO RJ|MUNICIPAL            |
+|9231943|CENTRO DE REABILITACAO DE PARAIBA DO SUL                    |     |FORA DO RJ|MUNICIPAL            |
+|9264612|SMS POLICLINICA ROCHA MAIA AP 21                            |     |21        |MUNICIPAL            |
+|9307265|SMS CF MARIA JOSE PAPERA DE AZEVEDO AP 52                   |     |52        |MUNICIPAL            |
+|9311661|SMS CF ROMULO CARLOS TEIXEIRA AP 51                         |     |51        |MUNICIPAL            |
+|9345515|SMS CF DINIZ BATISTA DOS SANTOS AP 31                       |     |31        |MUNICIPAL            |
+|9391983|SMS CMS JOSE PARANHOS FONTENELLE AP 31                      |     |31        |MUNICIPAL            |
+|9410449|PORTO GASTRO                                                |     |PRIVADO   |PRIVADO              |
+|9442251|SMS CF JEREMIAS MORAES DA SILVA AP 31                       |     |31        |MUNICIPAL            |
+|9582029|CDMED CENTRO DE DIAGNOSTICOS MEDICOS                        |     |PRIVADO   |PRIVADO              |
+|9592148|SEAP CGSP RJ AMB CADEIA PUBLICA JOSE ANTONIO DA COSTA BARROS|     |SES       |ESTADUAL             |
+|9715444|SMS CF DR MYRTES AMORELLI GONZAGA AP 52                     |     |52        |MUNICIPAL            |
+|9792961|DIMAGEM DIAGNOSTICO POR IMAGEM TAQUARA                      |     |PRIVADO   |PRIVADO              |
+|9864628|CENTRO DE ESPECIALIDADES MEDICAS DONA ALBA                  |     |          |                     |
+|9919511|NEUROFISIOLOGIA CLINICA INTEGRADA LTDA TAQUARA              |     |PRIVADO   |PRIVADO              |
+|9925627|CENTRO OFTALMOLOGICO ALBERT SABIN MADUREIRA                 |     |PRIVADO   |PRIVADO              |
+|9972315|CENTRO DE MEDICINA NUCLEAR DA GUANABARA TAQUARA             |     |PRIVADO   |PRIVADO              |
+|9996095|DIMAGEM DIAGNOSTICO POR IMAGEM TIJUCA                       |     |PRIVADO   |PRIVADO              |
+|9996761|NEUROFISIOLOGIA CLINICA INTEGRADA LTDA TIJUCA               |     |PRIVADO   |PRIVADO              |
