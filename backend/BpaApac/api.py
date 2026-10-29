@@ -355,6 +355,68 @@ OCI_CBO_CID_CODE_ALIASES: Dict[str, Tuple[str, ...]] = {
     "0901010065": ("0901010111", "0901010120"),
 }
 
+# Regra: consulta medica em atencao basica passa a valer como consulta especializada nas OCIs,
+# na analise de combos e nos BPAs tratados gerados. Desligue com OCI_CONVERTER_CONSULTA_AB=False.
+OCI_CONSULTA_AB_CODE = "0301010064"
+OCI_CONSULTA_ESPECIALIZADA_CODE = "0301010072"
+OCI_CONVERTER_CONSULTA_AB = config("OCI_CONVERTER_CONSULTA_AB", default=True, cast=bool)
+
+
+def _converter_consultas_ab_no_mapa(patient_map: Dict[Tuple[str, str], Dict[str, object]]) -> int:
+    """Troca a consulta de atencao basica pela especializada nos pacientes do mapa; devolve a quantidade trocada."""
+    if not OCI_CONVERTER_CONSULTA_AB:
+        return 0
+    total = 0
+    for patient in (patient_map or {}).values():
+        procedures = patient.get("procedures") or {}
+        qty = int(procedures.pop(OCI_CONSULTA_AB_CODE, 0) or 0)
+        if qty:
+            procedures[OCI_CONSULTA_ESPECIALIZADA_CODE] = procedures.get(OCI_CONSULTA_ESPECIALIZADA_CODE, 0) + qty
+            total += qty
+        contexts = patient.get("procedure_contexts") or {}
+        context = contexts.pop(OCI_CONSULTA_AB_CODE, None)
+        if context:
+            target = contexts.setdefault(OCI_CONSULTA_ESPECIALIZADA_CODE, {"cbos": set(), "cids": set()})
+            target["cbos"].update(context.get("cbos") or set())
+            target["cids"].update(context.get("cids") or set())
+    return total
+
+
+def _converter_consulta_ab_linha_bpa(line: str) -> Tuple[str, int]:
+    """Troca a consulta de atencao basica pela especializada numa linha BPA-C (02) ou BPA-I (03) em texto."""
+    if not OCI_CONVERTER_CONSULTA_AB:
+        return line, 0
+    layout = {"02": BPA_C_LAYOUT, "03": BPA_I_LAYOUT}.get(line[0:2])
+    if not layout:
+        return line, 0
+    slices = _get_layout_slice_map(layout)
+    proc_start, proc_end, _ = slices["procedimento"]
+    if line[proc_start:proc_end] != OCI_CONSULTA_AB_CODE:
+        return line, 0
+    qty_start, qty_end, _ = slices["quantidade"]
+    converted = line[:proc_start] + OCI_CONSULTA_ESPECIALIZADA_CODE + line[proc_end:]
+    return converted, _parse_quantity(line[qty_start:qty_end], default=1)
+
+
+def _recalcular_cabecalho_bpa_texto(lines: List[str]) -> List[str]:
+    """Atualiza numero de linhas e campo de controle do cabecalho 01 (layout BPA magnetico 04.14)."""
+    if not lines or not lines[0].startswith("01#BPA#") or len(lines[0]) < 29:
+        return lines
+    soma = 0
+    total = 1
+    for line in lines[1:]:
+        layout = {"02": BPA_C_LAYOUT, "03": BPA_I_LAYOUT}.get(line[0:2])
+        if not layout:
+            continue
+        slices = _get_layout_slice_map(layout)
+        proc_start, proc_end, _ = slices["procedimento"]
+        qty_start, qty_end, _ = slices["quantidade"]
+        soma += _parse_quantity(line[proc_start:proc_end], default=0) + _parse_quantity(line[qty_start:qty_end], default=0)
+        total += 1
+    header = lines[0]
+    header = header[:13] + str(total).zfill(6)[-6:] + header[19:25] + str(soma % 1111 + 1111) + header[29:]
+    return [header] + lines[1:]
+
 
 _CNES_ROWS_CACHE = None
 _CNES_MAP_CACHE = None
@@ -4150,6 +4212,7 @@ def _generate_treated_bpa_from_oci_analysis(
         "bpa_with_cpf": 0,
         "bpa_with_cns": 0,
     }
+    consultas_ab_convertidas = 0
 
     file_id = str(uuid.uuid4())
     path = os.path.join(tempfile.gettempdir(), file_id)
@@ -4219,6 +4282,10 @@ def _generate_treated_bpa_from_oci_analysis(
             dob = normalize_date(dob_val)
             proc = _normalize_proc_code(proc_val)
             qtd_str = str(qtd_val).strip() if qtd_val else ""
+            if OCI_CONVERTER_CONSULTA_AB and proc == OCI_CONSULTA_AB_CODE:
+                proc = OCI_CONSULTA_ESPECIALIZADA_CODE
+                excel_row["row_data"][headers[proc_col_idx - 1]] = proc
+                consultas_ab_convertidas += _parse_quantity(qtd_str, default=1)
             cns_val = ws.cell(row=row_idx, column=cns_col_idx).value if cns_col_idx else ""
             cpf_val = ws.cell(row=row_idx, column=cpf_col_idx).value if cpf_col_idx else ""
             normalized_bpa_cns = normalize_cns(cns_val)
@@ -4311,6 +4378,8 @@ def _generate_treated_bpa_from_oci_analysis(
             if not line.strip():
                 continue
 
+            line, convertidas = _converter_consulta_ab_linha_bpa(line)
+            consultas_ab_convertidas += convertidas
             ident = line[0:2]
             if ident == "03":
                 bpa_lines_before += 1
@@ -4386,6 +4455,7 @@ def _generate_treated_bpa_from_oci_analysis(
                 output_lines.append(line)
 
         bpa_lines_after = bpa_lines_before - oci_patients_removed
+        output_lines = _recalcular_cabecalho_bpa_texto(output_lines)
         ext = os.path.splitext(bpa_file_name)[1] or ".txt"
         with open(path, "w", encoding="iso-8859-1", newline="") as handle:
             for out_line in output_lines:
@@ -4440,6 +4510,7 @@ def _generate_treated_bpa_from_oci_analysis(
         "status_counts": status_counts,
         "patients_not_found_in_target_bpa": len(not_found_patients),
         "patients_with_leftover_budget": len(leftover_patients),
+        "consultas_ab_convertidas": consultas_ab_convertidas,
     }
 
     _register_temp_download_access(
@@ -4577,6 +4648,7 @@ def _analyze_oci_combos_internal(request):
     bpa_sources: List[Dict[str, object]] = []
     patient_maps: List[Dict[Tuple[str, str], Dict[str, object]]] = []
     supplemental_analyses: List[Dict[str, object]] = []
+    consultas_ab_convertidas = 0
 
     for uploaded_file in uploaded_files:
         bpa_bytes = uploaded_file.read()
@@ -4590,12 +4662,16 @@ def _analyze_oci_combos_internal(request):
                 "analysis": analysis,
             }
         )
-        patient_maps.append(_aggregate_patient_procedures("bpa", uploaded_file.name, bpa_bytes))
+        bpa_patient_map = _aggregate_patient_procedures("bpa", uploaded_file.name, bpa_bytes)
+        consultas_ab_convertidas += _converter_consultas_ab_no_mapa(bpa_patient_map)
+        patient_maps.append(bpa_patient_map)
 
     for procedures_file in procedures_files:
         procedures_bytes = procedures_file.read()
         supplemental_analyses.append(_build_cce_procedures_analysis(procedures_file.name, procedures_bytes))
-        patient_maps.append(_aggregate_patient_procedures("oci_procedures_sheet", procedures_file.name, procedures_bytes))
+        sheet_patient_map = _aggregate_patient_procedures("oci_procedures_sheet", procedures_file.name, procedures_bytes)
+        consultas_ab_convertidas += _converter_consultas_ab_no_mapa(sheet_patient_map)
+        patient_maps.append(sheet_patient_map)
 
     bpa_analysis = _summarize_oci_bpa_analyses(bpa_analyses)
     supplemental_analysis = _summarize_oci_supplemental_analyses(supplemental_analyses)
@@ -4629,6 +4705,8 @@ def _analyze_oci_combos_internal(request):
     summary["supplemental_sheet_file_count"] = int((supplemental_analysis or {}).get("file_count") or len(summary["supplemental_sheet_file_names"]))
     summary["supplemental_sheet_rows"] = int((supplemental_analysis or {}).get("matched_rows") or 0)
     summary["supplemental_sheet_quantity"] = int((supplemental_analysis or {}).get("matched_quantity") or 0)
+    summary["regra_consulta_ab_como_especializada"] = OCI_CONVERTER_CONSULTA_AB
+    summary["consultas_ab_convertidas"] = consultas_ab_convertidas
     _assert_unit_access(request, (resolved_unit or {}).get("cnes"))
 
     generated_treated_bpas: List[Dict[str, object]] = []
@@ -4733,6 +4811,7 @@ def _analyze_oci_combos_internal(request):
             f"Planilhas complementares: {len(procedures_files) or 0} | "
             f"Pacientes analisados: {summary.get('total_patients_analyzed') or 0} | "
             f"Ocorrencias: {summary.get('combo_occurrences') or 0} | "
+            f"Consultas AB convertidas em especializada: {consultas_ab_convertidas} | "
             f"BPAs tratados: "
             + " | ".join(
                 f"{item.get('target_code') or item.get('target_cnes')}: {'sim' if item.get('generated') else 'nao'}"
@@ -4756,7 +4835,8 @@ def _analyze_oci_combos_internal(request):
         result_message=(
             f"Pacientes analisados: {summary.get('total_patients_analyzed') or 0} | "
             f"Combos: {summary.get('combo_occurrences') or 0} | "
-            f"Validados: {summary.get('patients_with_combos') or 0}"
+            f"Validados: {summary.get('patients_with_combos') or 0} | "
+            f"Consultas AB convertidas: {consultas_ab_convertidas}"
         ),
     )
 

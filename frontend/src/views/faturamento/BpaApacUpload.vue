@@ -1159,6 +1159,7 @@
                 </div>
                 <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
                   Voce pode adicionar um BPA agora e incluir outros depois, mesmo em pastas diferentes. O seletor abre com todos os arquivos visiveis.
+                  Tambem aceita .zip, inclusive com outros zips dentro: o sistema usa so os arquivos BPA e ignora PDF e relatorios.
                 </p>
                 <p v-if="isAnalyzingOciComboBpa" class="mt-2 text-xs font-medium text-[#2a688f] dark:text-[#42b9eb]">Lendo BPA para consolidar procedimentos por paciente...</p>
                 <OciAlert v-if="ociComboBpaFieldWarning" type="warn" class="mt-3">{{ ociComboBpaFieldWarning }}</OciAlert>
@@ -3165,6 +3166,7 @@ import OciFileBadge from './oci/OciFileBadge.vue';
 import OciStatCard from './oci/OciStatCard.vue';
 import OciTabNav from './oci/OciTabNav.vue';
 import { ociRowClass, ociRowStatusClass, ociUnitMatchClasses, ociClasses, OCI_COLORS } from './oci/ociTheme';
+import { expandZipFiles, isZipFile } from './oci/ociZip';
 import api, { fetchCSRFToken } from '@/services/authService';
 import jsPDF from 'jspdf';
 import logoCcdti from '@/assets/logo_ccdti.png';
@@ -4558,10 +4560,26 @@ async function handleFileChange(kind, event) {
 }
 
 async function handleOciComboBpaFileChange(event) {
-  const selectedFiles = filterFilesBySize(Array.from(event.target.files || []), 'oci');
+  let pickedFiles = Array.from(event.target.files || []);
   resetOciComboResults();
   ociComboBpaFieldWarning.value = '';
-  if (!selectedFiles.length) return;
+  if (pickedFiles.some(isZipFile)) {
+    try {
+      isAnalyzingOciComboBpa.value = true;
+      pickedFiles = (await expandZipFiles(pickedFiles)).files;
+    } catch (error) {
+      console.error('Erro ao abrir zip de BPA:', error);
+      ociComboErrorMsg.value = error.message || 'Nao foi possivel abrir o arquivo zip.';
+      isAnalyzingOciComboBpa.value = false;
+      if (ociComboBpaInputRef.value) ociComboBpaInputRef.value.value = '';
+      return;
+    }
+  }
+  const selectedFiles = filterFilesBySize(pickedFiles, 'oci');
+  if (!selectedFiles.length) {
+    isAnalyzingOciComboBpa.value = false;
+    return;
+  }
 
   const existingFiles = [...ociComboBpaFiles.value];
   const existingAnalyses = [...ociComboBpaAnalyses.value];
@@ -4576,42 +4594,42 @@ async function handleOciComboBpaFileChange(event) {
     isAnalyzingOciComboBpa.value = true;
     const analyses = [...existingAnalyses];
     const validFiles = [...existingFiles];
-    let hasError = false;
+    const skippedMessages = [];
+    const mismatchMessages = [];
 
+    // Um arquivo com problema (ex.: CNES nao cadastrado) fica de fora; os demais seguem para a analise.
     for (const file of newFiles) {
       try {
         const analysis = await analyzeSelectedFile('bpa', file);
         if (analysis?.mismatch_detected) {
-          const warningMessage =
+          mismatchMessages.push(
             analysis.detail ||
-            `O arquivo ${file.name} nao corresponde ao campo BPA. Revise o arquivo informado.`;
-          ociComboBpaFieldWarning.value = warningMessage;
-          hasError = true;
-          break; // Stop processing further files if one is invalid format
+            `O arquivo ${file.name} nao corresponde ao campo BPA. Revise o arquivo informado.`,
+          );
+          continue;
         }
         analyses.push(analysis);
         validFiles.push(file);
       } catch (error) {
         console.error(`Erro ao analisar arquivo individual ${file.name}:`, error);
-        ociComboErrorMsg.value = resolveAnalyzeErrorMessage(
-          error,
-          `Nao foi possivel analisar o arquivo ${file.name}.`,
-          file?.name || 'o arquivo BPA',
+        skippedMessages.push(
+          `${file.name}: ${resolveAnalyzeErrorMessage(
+            error,
+            `Nao foi possivel analisar o arquivo ${file.name}.`,
+            file?.name || 'o arquivo BPA',
+          )}`,
         );
-        hasError = true;
-        break; // Stop on first error (e.g. invalid CNES)
       }
     }
-    
-    if (!hasError) {
-      ociComboBpaFiles.value = validFiles;
-      ociComboBpaAnalyses.value = analyses;
-      ociComboBpaAnalysis.value = buildOciComboBpaAnalysisSummary(analyses);
-    } else {
-      // Se deu erro, reverte para os arquivos que já estavam válidos antes da seleção
-      ociComboBpaFiles.value = existingFiles;
-      ociComboBpaAnalyses.value = existingAnalyses;
-      ociComboBpaAnalysis.value = existingAnalyses.length ? buildOciComboBpaAnalysisSummary(existingAnalyses) : null;
+
+    ociComboBpaFiles.value = validFiles;
+    ociComboBpaAnalyses.value = analyses;
+    ociComboBpaAnalysis.value = analyses.length ? buildOciComboBpaAnalysisSummary(analyses) : null;
+    if (mismatchMessages.length) {
+      ociComboBpaFieldWarning.value = mismatchMessages.join(' ');
+    }
+    if (skippedMessages.length) {
+      ociComboErrorMsg.value = `${skippedMessages.length} arquivo(s) ficaram de fora da analise. ${skippedMessages.join(' | ')}`;
     }
   } catch (error) {
     console.error('Erro ao analisar BPA para validacao de combos:', error);
