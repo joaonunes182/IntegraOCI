@@ -1238,7 +1238,7 @@
                 </div>
               </div>
 
-              <div v-if="hasCnes2970643" class="rounded-xl border border-slate-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-800">
+              <div class="rounded-xl border border-slate-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-800">
                 <div class="flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
                   <div>
                     <p class="text-xs font-semibold uppercase tracking-wide text-[#2a688f] dark:text-[#42b9eb]">Etapa 2</p>
@@ -1349,7 +1349,7 @@
               }}
             </p>
                   </div>
-                  <div v-if="hasCnes2970643" class="rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 dark:border-gray-700 dark:bg-gray-900/40">
+                  <div class="rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 dark:border-gray-700 dark:bg-gray-900/40">
                     <p class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">Planilha complementar</p>
                     <p class="mt-1 text-sm font-semibold text-gray-900 dark:text-white">{{ ociComboProceduresFiles.length ? `${ociComboProceduresFiles.length} arquivo(s) selecionado(s)` : 'Não informada' }}</p>
                   </div>
@@ -3559,18 +3559,6 @@ const resolvedSelectedUnit = computed(() => {
 const ociComboResolvedUnit = computed(() => {
   const bpaUnit = ociComboBpaAnalysis.value?.cnes_summary?.primary_unit;
   return ociComboResult.value?.resolved_unit || bpaUnit || null;
-});
-
-const hasCnes2970643 = computed(() => {
-  if (ociComboResult.value?.resolved_unit?.cnes === '2970643') return true;
-  if (ociComboBpaAnalysis.value?.cnes_summary?.primary_unit?.cnes === '2970643') return true;
-  if (Array.isArray(ociComboBpaAnalyses.value)) {
-    return ociComboBpaAnalyses.value.some(analysis => 
-      analysis?.cnes_summary?.primary_unit?.cnes === '2970643' ||
-      (Array.isArray(analysis?.cnes_summary?.units) && analysis.cnes_summary.units.some(u => u.cnes === '2970643'))
-    );
-  }
-  return false;
 });
 
 const ociCompetenceWarning = computed(() => {

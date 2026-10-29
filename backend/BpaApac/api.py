@@ -4726,7 +4726,7 @@ def _analyze_oci_combos_internal(request):
             if has_cce_ccd:
                 break
                 
-        if has_cce_ccd or supplemental_analyses:
+        if has_cce_ccd:
             targets_to_generate = list(OCI_TREATED_TARGETS)
         else:
             unique_cnes_map = {}
