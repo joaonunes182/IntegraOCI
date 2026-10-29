@@ -360,6 +360,8 @@ OCI_CBO_CID_CODE_ALIASES: Dict[str, Tuple[str, ...]] = {
 OCI_CONSULTA_AB_CODE = "0301010064"
 OCI_CONSULTA_ESPECIALIZADA_CODE = "0301010072"
 OCI_CONVERTER_CONSULTA_AB = config("OCI_CONVERTER_CONSULTA_AB", default=True, cast=bool)
+# A APS nao passa por regulacao e nao tem numero de autorizacao: por padrao ele nao e exigido para formar o combo.
+OCI_EXIGIR_AUTORIZACAO = config("OCI_EXIGIR_AUTORIZACAO", default=False, cast=bool)
 
 
 def _converter_consultas_ab_no_mapa(patient_map: Dict[Tuple[str, str], Dict[str, object]]) -> int:
@@ -2771,7 +2773,7 @@ def _evaluate_combo_context(
 ) -> Dict[str, object]:
     
     # 1. Valida a Autorização do BPA (9 chars e não começa com '0' - após remover zeros à esquerda do padding)
-    auth_ok = False
+    auth_ok = not OCI_EXIGIR_AUTORIZACAO
     for auth in patient.get("autorizacoes") or []:
         auth_str = str(auth).strip().lstrip("0")
         if len(auth_str) == 9:
